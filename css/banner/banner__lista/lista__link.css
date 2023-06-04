@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 360px)   {
+@media (min-width: 360px)     {
     .lista__link {
         display:flex;
         font-size: 14px;
