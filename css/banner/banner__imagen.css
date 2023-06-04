@@ -12,12 +12,12 @@
 .banner__imagen img{
     width: 98px;
     height: 98px; 
-    margin-left: 4px;
+    margin: 0rem; 
     
    }
    .banner__imagen{
     width: 98px;
     height: 98px; 
-   
+    margin: 1rem; 
 }  
 }

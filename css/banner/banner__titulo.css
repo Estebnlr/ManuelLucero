@@ -8,8 +8,7 @@
 @media (min-width: 360px)     {
     .banner__titulo{
         font-size: 22px;
-       
         text-align: left; 
-        margin:8px; 
+        margin:1rem; 
     }
 }
