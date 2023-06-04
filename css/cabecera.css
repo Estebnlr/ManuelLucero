@@ -2,7 +2,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-top:  2rem;
+    margin:  1rem;
 }
 
 
@@ -20,16 +20,24 @@
     
 } */
 
-@media (min-width: 360px)   {
+@media (max-width: 360px)   {
 
     .logo{
-        padding-left: 16px ;
-    }
-    .menu{
-        padding-right: 8px;
+        padding:  0rem;
+        margin:  0rem;
     }  
-    .menu__link{
-        display: none;
+    .logo img{
+        margin:  4px;
+    } 
+    .menu__link {
+       display: none;
+    }
+    .menu__link--activo{
+        margin-left:  18px;
+    }
+    .cabecera { 
+        margin-left:  8px;
+        margin-top: 2rem;
     }
 
 }

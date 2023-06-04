@@ -7,17 +7,16 @@
     
 }
 
-@media  (min-width: 360px) {
+@media  (max-width: 360px)  {
 
     .banners { 
         display: flex;
         flex-wrap: wrap-reverse;
         align-items:left;
         justify-content: left;
-        padding:1rem; 
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
+        padding: 0rem; 
+        margin: 0rem;
+        
     } 
    
 }

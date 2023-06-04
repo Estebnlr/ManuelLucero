@@ -7,11 +7,11 @@
     margin-bottom: 4rem; 
 }
 
-@media (min-width: 360px)   {
+@media (max-width: 360px)   {
     .sobremi {
-        padding: 2rem;
+        padding: 1rem;
         margin: 0rem;
-        align-items: center;
+        height: 400px;
     }
    
 }

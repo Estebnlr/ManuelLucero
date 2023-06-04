@@ -7,14 +7,12 @@
     padding-bottom: 3rem;
 }
 
-@media (min-width: 360px)   {
+@media (max-width: 360px)   {
   .sobremi__subtitulo{
     width: 300px;
-    align-items: center;
-    font-family: 'Raleway';
-    font-weight: 400;
     font-size: 14px;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
     margin: 0rem;
 }
 }
