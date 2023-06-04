@@ -1,0 +1,23 @@
+.boton__mensaje{
+    font-weight: 400;
+    font-size: 17px;
+    background: var(--menu-items-2);
+    border: 1px solid var(--menu-items-2);  
+    color: #FFFFFF;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-top: 2rem;
+    text-decoration: none;
+    width: 150px;
+    height: 25px;
+
+}
+
+.boton__mensaje:hover {
+    border: 1px solid var(--menu-items-2);  
+    color: var(--menu-items-2);
+    background: #FFFFFF;
+}

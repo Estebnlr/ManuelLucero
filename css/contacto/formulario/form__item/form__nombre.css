@@ -1,0 +1,10 @@
+.form__nombre{
+    font-weight: 400;
+    font-size: 12px;
+    color: #A2A2A2;
+}
+
+.form__nombre .mensaje{
+    width: 656px;
+    height: 133px;
+}

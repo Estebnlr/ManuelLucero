@@ -1,0 +1,15 @@
+.banner__titulo{
+    color: var(--titulo);
+    font-size: 52px;
+    font-weight: 700;
+    text-align: left;   
+}
+
+@media screen and (max-width: 360px)   {
+    .banner__titulo{
+        font-size: 22px;
+       
+        text-align: left; 
+        margin:8px; 
+    }
+}

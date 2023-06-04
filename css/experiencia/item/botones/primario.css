@@ -1,0 +1,20 @@
+.primario{
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid var(--menu-items-2);
+    color: var(--menu-items-2);;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-right: 1rem;
+    text-decoration: none;
+    width: 116px;
+}
+
+.primario:hover {
+    background: var(--menu-items-2);
+    border: 1px solid var(--menu-items-2);  
+    color: #FFFFFF;
+}

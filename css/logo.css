@@ -1,0 +1,13 @@
+.logo {
+    display: flex; 
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700; 
+    gap: 8px;
+    padding-left: 8rem;
+}
+
+.menu{
+    padding-right: 8rem;
+}
+

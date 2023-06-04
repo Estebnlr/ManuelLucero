@@ -1,0 +1,30 @@
+.lista__link {
+    color: var(--menu-items);
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 2rem;    
+}
+
+.lista__link:hover {
+    color: var(--menu-items-2);
+}
+
+
+@media screen and (max-width: 360px)   {
+    .lista__link {
+        display:flex;
+        font-size: 14px;
+        text-decoration: none;
+        margin-right: 8px; 
+        margin-left: 8px;
+         
+    }
+    .lista__link img{
+        margin-top: 4px; 
+        margin-left: 4px; 
+        width: 8px;
+        height: 8px;
+         
+    }
+   
+}

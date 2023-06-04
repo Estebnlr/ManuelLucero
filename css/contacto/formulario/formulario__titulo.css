@@ -1,0 +1,6 @@
+.formulario__titulo{
+    color: var(--titulo);
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,18 @@
+.sobremi__subtitulo{
+    font-family: 'Raleway';
+    padding-right: 50rem;
+    font-weight: 400;
+    font-size: 20px;
+    width: 900px;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 360px)   {
+  .sobremi__subtitulo{
+    width: 300px;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+}
+}

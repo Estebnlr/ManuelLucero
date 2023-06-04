@@ -1,0 +1,19 @@
+.sobremi {
+    background: var(--banner);
+    align-items: center;
+    padding: 8rem;
+    height: 330px;  
+    margin-top: 4rem; 
+    margin-bottom: 4rem; 
+}
+
+@media screen and (max-width: 360px)   {
+    .sobremi {
+        padding: 2rem;
+        padding-top: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem; 
+        align-items: center;
+    }
+   
+}

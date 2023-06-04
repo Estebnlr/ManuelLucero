@@ -1,0 +1,32 @@
+.cabecera { 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top:  2rem;
+}
+
+
+@media screen and  (max-width: 768px)   {
+    .menu__link{
+        display: none;
+    }
+
+    .logo{
+        padding-left: 2rem;
+    }
+    .menu{
+        padding-right: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 360px)   {
+
+    .logo{
+        padding-left: 16px ;
+    }
+    .menu{
+        padding-right: 8px;
+    }  
+   
+}

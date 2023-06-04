@@ -1,0 +1,12 @@
+.subtitulo__ano{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 360px)   {
+.subtitulo__ano{
+    width: 280px;
+    align-items: left;
+    font-size: 14px;
+    }  
+}

@@ -1,0 +1,15 @@
+.hobbies__titulo{
+    color: var(--titulo);
+    font-weight: 700;
+    font-size: 32px;
+    padding: 4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 360px)   {
+  .hobbies__titulo{
+    font-size: 22px;
+    padding: 1rem;
+    text-align: center;
+  }   
+}

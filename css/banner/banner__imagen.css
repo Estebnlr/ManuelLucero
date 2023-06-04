@@ -1,0 +1,23 @@
+.banner__imagen img{
+    width: 368px;
+    height: 368px;
+    margin-left: 3rem;
+}
+.banner__imagen{
+    width: 700px;
+    height: 400px;    
+}
+
+@media screen and (max-width: 360px)   {
+.banner__imagen img{
+    width: 98px;
+    height: 98px; 
+    margin-left: 4px;
+    
+   }
+   .banner__imagen{
+    width: 98px;
+    height: 98px; 
+   
+}  
+}

@@ -1,0 +1,22 @@
+.formacion__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 368px;
+    height: 286px;
+    background: #FFFFFF;
+}
+
+@media screen and (max-width: 360px)   {
+.formacion__img img{
+    width: 84px;
+    height: 58px;
+    }  
+.formacion__img{
+    width: 260px;
+    height: 118px;
+    padding: 1rem;
+    }     
+}

@@ -1,0 +1,15 @@
+.texto__subtitulo{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 1rem;  
+}
+
+@media screen and (max-width: 360px)   {
+    .texto__subtitulo{
+        width: 296px;
+        align-items: left;
+        font-size: 14px;  
+        margin: 1rem; 
+        padding: 1rem;
+   }
+}

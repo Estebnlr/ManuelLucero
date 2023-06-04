@@ -1,0 +1,26 @@
+.banners { 
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    padding:8rem;
+    padding-bottom: 6rem; 
+    
+}
+
+@media screen and (max-width: 360px)   {
+
+    .banner {
+        width: 328px;   
+    }
+    .banners { 
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items:left;
+        justify-content: left;
+        padding:1rem; 
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    } 
+   
+}

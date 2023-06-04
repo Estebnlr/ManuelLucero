@@ -1,0 +1,15 @@
+.texto__botones{
+    display: flex;
+    margin-top: 2rem;  
+
+}
+
+@media screen and (max-width: 360px)   {
+    .texto__botones{
+      
+        width: 296px;
+        align-items: left;
+        font-size: 14px;  
+        padding: 12px 16px;
+   }
+}

@@ -1,0 +1,9 @@
+.form__mensaje{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 133px;
+    background: #FFFFFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}

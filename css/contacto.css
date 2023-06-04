@@ -1,0 +1,6 @@
+.contacto{
+    display: flex;
+    padding: 8rem;
+    background: var(--banner);
+    margin: 4rem 0rem 4rem 0rem;
+}

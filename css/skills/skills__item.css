@@ -1,0 +1,23 @@
+.skills__item{
+    background: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-weight: 700;
+    font-size: 16px;  
+}
+
+@media screen and (max-width: 360px)   {
+  .skills__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 90px;
+  height: 80px;
+  }
+}

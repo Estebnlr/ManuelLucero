@@ -1,0 +1,26 @@
+
+.menu__link {
+    color: var(--menu-items);
+    font-size: 16px;
+    margin: 1rem;
+    text-decoration: none;
+    text-align: left;
+}
+
+.menu__link--activo {
+    color: var(--menu-items);
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.menu__link--activo:hover {
+    color: var(--menu-items-2);
+}
+
+.menu__link:hover {
+    color: var(--menu-items-2);
+}
+

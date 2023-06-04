@@ -1,0 +1,18 @@
+.banner__subtitulo{
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 360px)   {
+    .banner__subtitulo{
+    
+    font-size: 14px;
+    
+    text-align: left;
+    margin: 8px;   
+}
+}
