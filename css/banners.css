@@ -9,9 +9,6 @@
 
 @media  (min-width: 360px) {
 
-    .banner {
-        width: 328px;   
-    }
     .banners { 
         display: flex;
         flex-wrap: wrap-reverse;
