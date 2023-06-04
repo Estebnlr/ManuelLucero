@@ -7,7 +7,7 @@
     padding-bottom: 3rem;
 }
 
-@media screen and (max-width: 360px)   {
+@media (min-width: 360px)   {
   .sobremi__subtitulo{
     width: 300px;
     align-items: center;
