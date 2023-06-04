@@ -6,7 +6,7 @@
 }
 
 
-@media screen and  (max-width: 768px)   {
+/* @media screen and  (max-width: 768px)   {
     .menu__link{
         display: none;
     }
@@ -18,9 +18,9 @@
         padding-right: 2rem;
     }
     
-}
+} */
 
-@media screen and (max-width: 360px)   {
+@media (min-width: 360px)   {
 
     .logo{
         padding-left: 16px ;
@@ -28,5 +28,8 @@
     .menu{
         padding-right: 8px;
     }  
-   
+    .menu__link{
+        display: none;
+    }
+
 }
