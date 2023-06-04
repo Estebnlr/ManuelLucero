@@ -12,7 +12,7 @@
     
 }
 
-@media screen and (max-width: 360px)   {
+@media (min-width: 360px)   {
   .hobbies__item{
   display: flex;
   flex-direction: column;
