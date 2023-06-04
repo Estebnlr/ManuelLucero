@@ -9,7 +9,7 @@
     background: #FFFFFF;
 }
 
-@media screen and (max-width: 360px)   {
+@media (min-width: 360px)  {
 .formacion__img img{
     width: 84px;
     height: 58px;

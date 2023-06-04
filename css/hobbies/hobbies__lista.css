@@ -11,7 +11,7 @@
     grid-template-columns: repeat(2, 1fr);
     width: 280px;
     height: 400px;
-    gap: 32px;
+    padding: 1rem; 
     margin: 0rem; 
     }  
 }
