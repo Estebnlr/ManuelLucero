@@ -16,7 +16,7 @@
     }
   
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 470px) {
   
     .cabecera { 
         display: inline-flex;
