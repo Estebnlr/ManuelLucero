@@ -19,8 +19,8 @@
 }
 @media screen and (max-width: 460px)    {
   .skills__item{
-    width: 150px;
-    height: 88px;
+    width: 140px;
+    height: 80px;
     padding: 1rem;
   }
 
