@@ -6,7 +6,7 @@
 .menu{
     width: 100%;
     display: flex; 
-    justify-content: flex-end;
+    justify-content: right;
     align-items: center;
     margin-right: 3rem;
 }
@@ -14,20 +14,10 @@
     .menu__link{
         display: none;  
     }
-    .logo {
-        width: 30%;
-    }
-    .menu{
-        width: 70%;
-    }
-}
-
-@media screen and  (max-width: 360px)   {
     .cabecera { 
-        width: 100%;
         margin:  1rem;
     }
-    .menu{
-        margin-right: 0rem;
+    .menu { 
+        margin-right:  1rem;
     }
 }
