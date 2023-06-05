@@ -1,5 +1,4 @@
 .cabecera { 
-    
     display: inline-flex;
     margin:  2rem;
 }
@@ -16,15 +15,13 @@
     }
   
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 460px) {
   
     .cabecera { 
-        width: 100%;
-        display: inline-flex;
         margin:  1rem 1rem 0.5rem 0.5rem;
     }
-    /* .menu__link--activo {
-        margin-left:  3.5rem;
-    } */
+    .menu__link--activo {
+        margin:  auto;
+    }
 
   }
