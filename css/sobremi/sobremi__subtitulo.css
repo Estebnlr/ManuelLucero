@@ -19,10 +19,10 @@
 }
 @media screen and (max-width: 460px)  {
   .sobremi__subtitulo{
-   text-align: justify;
+   
     padding: 1rem;
     font-size: 14px;
-    width: 350px;
+    width: 360px;
   }
   .sobremi img{
     padding: 1rem; 
