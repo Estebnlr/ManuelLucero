@@ -23,7 +23,7 @@
       margin: 0rem;
     }
     .menu__link--activo {
-        margin-left:  0em;
+        display: none; 
     }
   
   }
