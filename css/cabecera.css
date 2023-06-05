@@ -19,6 +19,7 @@
 @media screen and (max-width: 450px) {
   
     .cabecera { 
+        width: 100%;
         display: inline-flex;
         margin:  1rem 1rem 0.5rem 0.5rem;
     }
