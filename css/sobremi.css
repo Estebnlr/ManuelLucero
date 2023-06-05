@@ -1,17 +1,23 @@
 .sobremi {
     background: var(--banner);
     align-items: center;
-    padding: 8rem;
+    margin: 0rem;
+    padding: 3rem;
     height: 330px;  
-    margin-top: 4rem; 
-    margin-bottom: 4rem; 
+    
 }
-
+@media screen and  (max-width: 768px)   {
+    .sobremi{
+        height: 300px;  
+        margin: 0rem;
+        padding: 0rem;
+    }
+   
+}
 @media screen and (max-width: 460px)  {
     .sobremi {
-        padding: 1rem;
         margin: 0rem;
-        height: 400px;
+        padding: 0rem;
     }
    
 }

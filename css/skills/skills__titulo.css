@@ -2,17 +2,15 @@
     color: var(--titulo);
     font-weight: 700;
     font-size: 32px;
-    padding: 4rem;
+    margin: 3rem;
     text-align: center;
 }
 
 @media screen and (max-width: 460px) {
   .skills__titulo{
-    width: 300px;
     font-size: 22px;
     text-align: center;
-    padding: 0rem;
+    padding: 1.5rem;
     margin: 0rem;
-    padding-right: 0rem;
   }   
 }

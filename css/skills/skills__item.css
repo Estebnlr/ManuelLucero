@@ -10,15 +10,18 @@
     font-weight: 700;
     font-size: 16px;  
 }
-
+@media screen and  (max-width: 768px)   {
+  .skills__item{
+    margin: 0.5rem;
+    width: 180px;
+    height: 100px;
+  }
+}
 @media screen and (max-width: 460px)    {
   .skills__item{
- 
-    margin-right: 1rem; 
-    width: 156px;
-    height: 118px;
-   padding: 0rem;
-   padding-right: 0rem;
+    width: 170px;
+    height: 88px;
+    padding: 1rem;
   }
 
 }

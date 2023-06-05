@@ -3,17 +3,27 @@
     padding-right: 50rem;
     font-weight: 400;
     font-size: 20px;
-    width: 900px;
+    width: 80%;
     padding-bottom: 3rem;
 }
-
+@media screen and  (max-width: 768px)   {
+  .sobremi__subtitulo{
+    padding: 2rem;
+    padding-top: 0rem;
+    font-size: 14px;
+    width: 650px;
+  }
+  .sobremi img{
+    padding-left: 2rem; 
+  }
+}
 @media screen and (max-width: 460px)  {
   .sobremi__subtitulo{
-    width: 300px;
+    padding: 1rem;
     font-size: 14px;
-    padding-bottom: 4rem;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    margin: 0rem;
-}
+    width: 400px;
+  }
+  .sobremi img{
+    padding: 1rem; 
+  }
 }
