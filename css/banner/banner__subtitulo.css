@@ -6,7 +6,14 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
+@media screen and  (max-width: 768px)   {
+    .banner__subtitulo{
+        font-size: 16px;
+        margin-top: 1rem; 
+        margin-bottom: 1rem; 
+        padding:  0rem;
+    }
+}
 @media screen and (max-width: 460px)    {
     .banner__subtitulo{
     font-size: 14px;

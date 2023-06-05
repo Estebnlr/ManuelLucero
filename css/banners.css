@@ -1,22 +1,41 @@
 .banners { 
-    align-items:center;
     display: flex;
     justify-content: center;
-    padding:8rem;
-    padding-bottom: 6rem; 
+    align-items:center;
+    margin:  2rem 3rem 2rem 2.5rem;
+    
+}
+@media screen and  (max-width: 768px)   {
+    .banners{
+        height:200px;
+        margin:  1.5rem;
+    }
+    .banner{
+        height:200px;
+    }
+    .banner__lista{
+        display:flex;
+        margin:  0rem;
+        padding:  0rem;
+    }
     
 }
 
 @media  screen and (max-width: 460px) {
 
     .banners { 
+        width: 100%;
         display: flex;
         flex-wrap: wrap-reverse;
         align-items:left;
         justify-content: left;
-        padding: 0rem; 
+        padding-top: 7rem; 
         margin: 0rem;
-        
     } 
+    .banner{
+        
+        width: 100%;
+        margin-left:  0rem;
+    }
    
 }
