@@ -4,13 +4,20 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-
-@media (min-width: 360px)    {
+@media screen and  (max-width: 1023px)   {
+    .subtitulo__item{
+        font-size: 16px;
+        margin: 0.5rem;
+        padding: 0rem;
+    }
+}
+@media (max-width: 460px)    {
 .subtitulo__item {
-    width: 280px;;
+    width: 290px;;
     align-items: left;
     font-size: 16px;
-    margin: 0rem;
-    padding: 8px;
+    margin-top: 0.5rem;
+    padding: 0rem;
+    margin-left: 0rem;
     }  
 }

@@ -1,6 +1,6 @@
 .hobbies{
     height: 350px;
-    margin: 0rem;
+    margin: 3rem;
 }
 @media screen and  (max-width: 1023px)   {
     .hobbies{
@@ -14,7 +14,7 @@
 @media screen and (max-width: 460px)  {
 
     .hobbies{
-       height: 450px;
+       height: 500px;
        margin: 0rem;
        padding: 0rem;
     }

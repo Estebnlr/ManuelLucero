@@ -1,15 +1,22 @@
 .formacion{
-    padding: 2rem;
-    padding-right: 6rem;
+    padding: 0rem;
     background: var(--banner);
-    margin-bottom: 2rem;;
+    margin: 0rem;
+    height: 600px;
 }
-
-@media (min-width: 360px)   {
+@media screen and  (max-width: 1023px)   {
+    .formacion{
+        height: 350px;
+        margin: 0rem;
+        padding: 0rem;
+    }
+}
+@media (max-width: 460px)   {
     .formacion{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 930px;
         margin: 0rem;
         padding: 0rem;   
    }

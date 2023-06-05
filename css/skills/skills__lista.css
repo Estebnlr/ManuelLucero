@@ -1,7 +1,7 @@
 .skills__lista {
     display: flex;
     justify-content: space-between;
-    margin: 0rem;
+    margin: 3rem;
 }
 @media screen and  (max-width: 1023px)   {
     .skills__lista {

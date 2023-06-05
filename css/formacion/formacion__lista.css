@@ -1,9 +1,16 @@
 .formacion__lista {
     display: flex;
     justify-content: space-between;
+    margin: 4rem;
 }
-
-@media (min-width: 360px)  {
+@media screen and  (max-width: 1023px)   {
+    .formacion__lista{
+        margin: 3rem;
+        margin-top: 1rem;
+        padding: 0rem;
+    }
+}
+@media (max-width: 460px)  {
 .formacion__lista {
     display: flex;
     flex-direction: column;

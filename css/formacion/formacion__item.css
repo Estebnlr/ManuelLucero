@@ -1,8 +1,15 @@
 .formacion__item{
-   margin: 4rem;
+   margin: 0rem;
+   width: 368px;
+   height: 286px;
 }
-
-@media (min-width: 360px)  {
+@media screen and  (max-width: 1023px)   {
+   .formacion__item{
+      margin: 0rem;
+      padding: 0rem;
+   }
+}
+@media (max-width: 460px) {
    .formacion__item{
       display: flex;
       flex-direction: column;

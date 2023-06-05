@@ -25,8 +25,7 @@
 
 @media  screen and (max-width: 460px) {
 
-    .banners { 
-        width: 99%;      
+    .banners {      
         display: flex;
         flex-wrap: wrap-reverse;
         align-items:left;
@@ -35,7 +34,7 @@
         margin: 0rem;
     } 
     .banner{
-        width: 98%;
+        height: 190px;
         margin-left:  0rem;
     }
    

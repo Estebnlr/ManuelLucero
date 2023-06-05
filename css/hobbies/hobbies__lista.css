@@ -1,7 +1,7 @@
 .hobbies__lista {
     display: flex;
     justify-content: space-between;
-    margin: 3rem;
+    margin: 0rem;
 }
 @media screen and  (max-width: 1023px)   {
     .hobbies__lista {
