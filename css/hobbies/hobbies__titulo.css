@@ -11,7 +11,7 @@
     margin-bottom: 1rem;
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 500px)  {
   .hobbies__titulo{
     font-size: 22px;
     text-align: center;

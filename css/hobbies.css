@@ -11,11 +11,11 @@
     }
 }
 
-@media screen and (max-width: 460px)  {
+@media screen and (max-width: 500px)  {
 
     .hobbies{
-       height: 500px;
        margin: 0rem;
        padding: 0rem;
+       margin-bottom: 2rem;
     }
  }

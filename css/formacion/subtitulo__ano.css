@@ -9,7 +9,7 @@
         padding: 0rem;
     }
 }
-@media (max-width: 460px)    {
+@media (max-width: 500px)  {
 .subtitulo__ano{
     width: 290px;
     align-items: left;
