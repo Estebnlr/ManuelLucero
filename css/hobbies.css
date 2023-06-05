@@ -1,10 +1,17 @@
 .hobbies{
-    margin-top: 8rem; 
-    margin-bottom: 8rem; 
-    padding: 8rem;
+    height: 350px;
+    margin: 0rem;
+}
+@media screen and  (max-width: 1023px)   {
+    .hobbies{
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        margin: 0rem;
+    }
 }
 
-@media (min-width: 360px)    {
+@media screen and (max-width: 460px)    {
     .hobbies{
         display: flex;
         flex-direction: column;

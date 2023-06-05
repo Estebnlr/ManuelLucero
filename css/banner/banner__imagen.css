@@ -9,16 +9,16 @@
     width: 700px;
     height: 400px;   
 }
-@media screen and  (max-width: 768px)   {
+@media screen and  (max-width: 1023px)   {
     .banner__imagen img{
         width: 160px;
         height: 160px; 
     }
     .banner__imagen{
         display: flex;
-        align-items:initial;
-        width: 40%;
-        height:200px; 
+        align-items:start;
+        height: 220px; 
+        width: 600px;
         margin: 0rem; 
         padding:  0rem;
     }

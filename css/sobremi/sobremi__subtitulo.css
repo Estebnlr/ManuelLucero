@@ -6,12 +6,12 @@
     width: 80%;
     padding-bottom: 3rem;
 }
-@media screen and  (max-width: 768px)   {
+@media screen and  (max-width: 1023px)   {
   .sobremi__subtitulo{
     padding: 2rem;
     padding-top: 0rem;
     font-size: 14px;
-    width: 650px;
+    width: 900px;
   }
   .sobremi img{
     padding-left: 2rem; 

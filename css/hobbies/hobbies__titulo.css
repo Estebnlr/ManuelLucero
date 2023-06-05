@@ -2,14 +2,20 @@
     color: var(--titulo);
     font-weight: 700;
     font-size: 32px;
-    padding: 4rem;
+    margin: 3rem;
     text-align: center;
 }
-
-@media (min-width: 360px)    {
+@media screen and  (max-width: 1023px)   {
+  .hobbies__titulo{
+    padding: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 460px) {
   .hobbies__titulo{
     font-size: 22px;
-    padding: 2rem;
     text-align: center;
+    padding: 0rem;
+    margin-bottom: 1rem;
   }   
 }

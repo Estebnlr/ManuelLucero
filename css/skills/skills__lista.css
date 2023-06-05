@@ -3,11 +3,13 @@
     justify-content: space-between;
     margin: 3rem;
 }
-@media screen and  (max-width: 768px)   {
+@media screen and  (max-width: 1023px)   {
     .skills__lista {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 2rem;       
+        margin: 2rem;    
+        padding: 0rem; 
+        
     }
  }
 @media screen and (max-width: 460px) {
