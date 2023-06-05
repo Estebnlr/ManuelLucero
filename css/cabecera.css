@@ -36,6 +36,7 @@
     .cabecera { 
         width: 96%;
         margin:  0rem;
+        height: 100px;
     }
     .menu {
         width: 55%;

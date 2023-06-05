@@ -1,13 +1,13 @@
 .skills__lista {
     display: flex;
     justify-content: space-between;
-    margin: 3rem;
+    margin: 0rem;
 }
 @media screen and  (max-width: 1023px)   {
     .skills__lista {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 2rem;    
+        margin: 0rem;    
         padding: 0rem; 
         
     }
@@ -16,7 +16,8 @@
 .skills__lista {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-     margin: 0rem;
+ 
+     margin: 1rem;
      padding: 0rem;
     }  
 }

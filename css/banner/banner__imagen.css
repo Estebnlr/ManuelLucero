@@ -32,10 +32,9 @@
    }
    .banner__imagen{
     display: flex;
-    align-items:start;
     justify-content: start;
-    width: 50%;
-    height:90px; 
+    align-items:start;
+    height: 50px;  
     margin: 1rem;
 }  
 }

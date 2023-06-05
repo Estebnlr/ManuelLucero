@@ -1,7 +1,7 @@
 .skills__item{
     background: #FFFFFF;
-    width: 176px;
-    height: 174px;
+    width: 224px;
+    height: 118px;
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     align-items: flex-start;
     font-weight: 700;
     font-size: 16px;
-    margin: 0.5rem;   
+    margin: 1rem;   
 }
 @media screen and  (max-width: 1023px)   {
     .skills__item {
@@ -20,9 +20,9 @@
  }
 @media screen and (max-width: 460px)    {
   .skills__item{
-    width: 140px;
-    height: 80px;
-    padding: 1rem;
+    width: 156px;
+    height: 118px;
+    margin: 0.5rem; 
   }
 
 }
