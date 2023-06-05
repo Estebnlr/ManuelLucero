@@ -1,7 +1,7 @@
 .formacion__item{
    margin: 0rem;
-   width: 368px;
-   height: 286px;
+   width: 100%;
+
 }
 @media screen and  (max-width: 1023px)   {
    .formacion__item{

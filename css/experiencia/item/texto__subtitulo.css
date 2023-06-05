@@ -2,9 +2,10 @@
     font-weight: 500;
     font-size: 16px;
     margin-top: 1rem;  
+    margin-bottom: 1rem;  
 }
 
-@media screen and (max-width: 360px)   {
+@media screen and (max-width: 460px)   {
     .texto__subtitulo{
         width: 296px;
         align-items: left;

@@ -31,7 +31,7 @@
         margin:  1.5rem;
     }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 500px) {
     
     .menu {
         width: 55%;

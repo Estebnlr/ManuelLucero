@@ -3,17 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    width: 800px;
+    width:40%;
+}
+@media screen and  (max-width: 1023px)   {
+  .item__texto{
+    width:20%;
+  }
 
 }
 
-.item__texto img{
-    padding-right: 2rem;
-    padding-top: 6rem;
-    
-}
-
-@media screen and (max-width: 360px)   {
+@media screen and (max-width: 460px)   {
     .item__texto {
         display: flex;
         flex-direction: column;
@@ -21,11 +20,5 @@
         margin: 1rem;
         padding: 1rem;
         }  
-        .item__texto img{
-            padding: 1rem;
-            margin: 1rem;
-            width: 296px;
-            height: 144px;
-             
-          }  
+
     }

@@ -11,12 +11,12 @@
         padding: 0rem;
     }
 }
-@media (max-width: 460px)   {
+@media screen and (max-width: 460px)   {
     .formacion{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 930px;
+        height: 800px;
         margin: 0rem;
         padding: 0rem;   
    }

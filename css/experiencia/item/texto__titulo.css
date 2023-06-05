@@ -1,11 +1,10 @@
 .texto__titulo{
     font-weight: 700;
     font-size: 22px;
-    width: 900px;
-    margin-top: 2rem;  
+ 
 }
 
-@media screen and (max-width: 360px)   {
+@media screen and (max-width: 460px)  {
     .texto__titulo{
       
         width: 296px;

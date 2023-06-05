@@ -19,3 +19,8 @@
     color: var(--menu-items-2);
     background: #FFFFFF;
 }
+@media screen and  (max-width: 1023px)   {
+    .secundario{
+        width: 80px;      height:10px;      
+    }
+  }

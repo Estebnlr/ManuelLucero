@@ -1,10 +1,21 @@
 .experiencia{
-    margin-top: 8rem; 
-    margin-bottom: 8rem; 
-    padding: 6rem; 
+    margin: 0rem;
+    padding: 0rem; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
 }
-
-@media screen and (max-width: 360px)   {
+@media screen and  (max-width: 1023px)   {
+    .experiencia{
+        
+        height: 1500px;
+        margin: 0rem;
+        padding: 0rem;
+    }
+}
+@media screen and (max-width: 460px)   {
     .experiencia{
         display: flex;
         flex-direction: column;

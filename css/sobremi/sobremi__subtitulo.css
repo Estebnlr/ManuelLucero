@@ -11,18 +11,17 @@
     padding: 2rem;
     padding-top: 0rem;
     font-size: 14px;
-    width: 900px;
+    width: 90%;
   }
   .sobremi img{
     padding-left: 2rem; 
   }
 }
-@media screen and (max-width: 460px)  {
+@media screen and (max-width: 500px)  {
   .sobremi__subtitulo{
-   
-    padding: 1rem;
+    padding: 0rem;
+    padding-left: 2rem;
     font-size: 14px;
-    width: 360px;
   }
   .sobremi img{
     padding: 1rem; 

@@ -1,11 +1,31 @@
 .item{
     display: flex;
+    justify-content: space-between;
+    margin: 0rem;
     margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    padding: 0rem; 
+}
+.item img{
+  width:55%;
 }
 
+@media screen and  (max-width: 1023px)   {
+  .item{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-top: 0rem;
+    padding: 0rem; 
+}
+  .item img{
+    width:60%;
+  }
+}
 
-
-@media screen and (max-width: 360px)   {
+@media screen and (max-width: 460px)   {
   .item{
     display: flex;
     flex-direction: column;
