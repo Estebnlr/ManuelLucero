@@ -20,7 +20,7 @@
   
     .cabecera { 
         display: inline-flex;
-        margin:  0.5rem;
+        margin:  1rem 1rem 0.5rem 0.5rem;
     }
     .menu__link--activo {
         margin-left:  3.5rem;
