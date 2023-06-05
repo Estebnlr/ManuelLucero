@@ -1,35 +1,33 @@
 .cabecera { 
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin:  1rem;
+    width: 100%;
+    display: inline-flex;
+    margin:  2rem;
 }
-
-
-/* @media screen and  (max-width: 768px)   {
+.menu{
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3rem;
+}
+@media screen and  (max-width: 768px)   {
     .menu__link{
-        display: none;
+        display: none;  
     }
-
-    .logo{
-        padding-left: 2rem;
+    .logo {
+        width: 30%;
     }
     .menu{
-        padding-right: 2rem;
+        width: 70%;
     }
-    
-} */
+}
 
-@media  screen and  (max-width: 360px)   {
-    .menu__link {
-       display: none;
-    }
-    .menu__link--activo{
-        margin-left:  9rem;
-    }
+@media screen and  (max-width: 360px)   {
     .cabecera { 
-        margin-left:  0rem;
-        margin-top: 2rem;
+        width: 100%;
+        margin:  1rem;
     }
-
+    .menu{
+        margin-right: 0rem;
+    }
 }

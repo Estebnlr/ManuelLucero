@@ -1,15 +1,13 @@
 .logo {
-    display: flex; 
+    width: 30%;
+    display: flex;
     align-items: center;
     font-size: 16px;
     font-weight: 700; 
-    margin:  1rem;
+   
 }
 .logo img{
- margin:  4px;
+ padding:  8px;
 }
 
-.menu{
-    padding: 0rem;
-}
 
