@@ -14,7 +14,7 @@
         padding:  0rem;
     }
 }
-@media screen and (max-width: 460px)    {
+@media screen and (max-width: 500px)    {
     .banner__subtitulo{
     font-size: 14px;
     text-align: left;

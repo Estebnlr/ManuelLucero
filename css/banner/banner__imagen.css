@@ -23,7 +23,7 @@
         padding:  0rem;
     }
 }
-@media  screen and (max-width: 460px)   {
+@media  screen and (max-width: 500px) {
 .banner__imagen img{
     width: 98px;
     height: 98px; 
