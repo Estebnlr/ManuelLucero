@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 460px) {
   .skills__titulo{
-   
+   width: 80%;
     font-size: 22px;
     text-align: center;
     padding: 0rem;
