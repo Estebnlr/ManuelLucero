@@ -21,7 +21,7 @@
         margin:  1rem 1rem 0.5rem 0.5rem;
     }
     .menu__link--activo {
-        margin:  auto;
+        margin-left:  2.5rem;
     }
 
   }
