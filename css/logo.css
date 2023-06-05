@@ -5,6 +5,9 @@
     font-weight: 700; 
     margin:  1rem;
 }
+.logo img{
+ margin:  4px;
+}
 
 .menu{
     padding: 0rem;
