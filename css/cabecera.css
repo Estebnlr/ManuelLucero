@@ -38,11 +38,13 @@
 @media screen and (max-width: 460px) {
   
     .cabecera { 
-        width: 100%;
+        width: 96%;
         margin:  0.5rem;
     }
     .menu {
         width: 55%;
+        display: flex; 
+        justify-content: right;
         margin-left:0rem;
         margin: 0rem;
     }
