@@ -39,7 +39,7 @@
   
     .cabecera { 
         width: 96%;
-        margin:  0.5rem;
+        margin:  0rem;
     }
     .menu {
         width: 55%;
@@ -50,7 +50,7 @@
     }
     .logo{
         width: 40%;
-        margin: 0rem ;
+        margin: 0.5rem ;
     }
     .menu__link{
         display: none;  
