@@ -10,14 +10,13 @@
 }
 
 
-@media (max-width: 360px)    {
+@media screen and (max-width: 460px)   {
     .lista__link {
         
         display:flex;
         font-size: 14px;
         text-decoration: none;
-        margin: 0rem; 
-        padding-left: 1rem;
+        margin: 1rem;
          
     }
     .lista__link img{
