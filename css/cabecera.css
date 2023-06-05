@@ -14,8 +14,16 @@
     .menu__link{
         display: none;  
     }
-    .cabecera { 
-        margin:  1rem;
-    }
   
 }
+@media screen and (max-width: 360px) {
+  
+    .cabecera { 
+      display: inline-flex;
+      margin: 0.5rem;
+    }
+    .menu__link--activo {
+        margin-left:  1.5rem;
+    }
+  
+  }
