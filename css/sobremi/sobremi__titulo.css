@@ -4,7 +4,7 @@
     font-size: 36px;   
 }
 
-@media (max-width: 360px)   {
+@media screen and (max-width: 460px)   {
   .sobremi__titulo {
         padding-bottom: 1rem;
         padding-top: 1rem;
