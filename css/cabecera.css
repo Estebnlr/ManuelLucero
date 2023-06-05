@@ -34,7 +34,7 @@
 @media screen and (max-width: 460px) {
   
     .cabecera { 
-        width: 96%;
+        
         margin:  0rem;
         height: 100px;
     }
@@ -50,8 +50,7 @@
         margin: 0.5rem ;
     }
     .menu__link{
-        display: none;  
-       
+        display: none;   
     }
 
   }
