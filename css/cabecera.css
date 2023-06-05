@@ -18,6 +18,10 @@
 }
 @media screen and (max-width: 360px) {
   
- 
+    .cabecera { 
+        width: 50%;
+        display: inline-flex;
+        margin:  2rem;
+    }
 
   }
