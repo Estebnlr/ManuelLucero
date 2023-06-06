@@ -33,17 +33,15 @@
 }
 @media screen and (max-width: 500px) {
     
-    .cabecera { 
-        width: 100%;
-        background-color: aqua;
-    }
     .menu {
+        width: 55%;
         display: flex; 
         justify-content: right;
         margin:0.5rem;
        
     }
     .logo{
+        width: 40%;
         margin: 0.5rem ;
     }
     .menu__link{
