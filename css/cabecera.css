@@ -33,6 +33,10 @@
 }
 @media screen and (max-width: 500px) {
     
+
+    .cabecera { 
+        width: 480px;
+    }
     .menu {
         width: 270px;
         display: flex; 
