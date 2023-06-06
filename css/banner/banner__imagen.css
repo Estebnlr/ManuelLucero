@@ -14,7 +14,8 @@
     }
     .banner__imagen{
         display: flex;
-       align-items:center; 
+        justify-content: center;
+        align-items:center; 
         margin-bottom:  1rem;
     }
 }
@@ -25,6 +26,7 @@
    }
    .banner__imagen{
     display: flex;
+    justify-content: left;
     align-items:start;
     margin: 1rem;
     

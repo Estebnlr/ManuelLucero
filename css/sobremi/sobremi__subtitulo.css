@@ -3,10 +3,10 @@
     font-weight: 400;
     font-size: 20px;
     width: 80%;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
  .sobremi img{
-    margin: 2rem; 
+    margin: 3rem; 
   }
 @media screen and  (max-width: 1023px)   {
   .sobremi__subtitulo{
