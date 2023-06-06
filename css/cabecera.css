@@ -36,11 +36,11 @@
         width: 60%;
         display: flex; 
         justify-content: right;
-        margin: 1rem ;
+        margin: 0rem ;
     }
     .logo{
         width: 40%;
-        margin: 1rem ;
+        margin: 0rem ;
     }
     .menu__link{
         display: none;   
