@@ -33,6 +33,10 @@
 }
 @media screen and (max-width: 500px) {
     
+    .cabecera { 
+        width: 100%;
+        background-color: aqua;
+    }
     .menu {
         display: flex; 
         justify-content: right;
