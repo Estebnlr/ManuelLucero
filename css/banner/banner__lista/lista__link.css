@@ -1,23 +1,30 @@
 .lista__link {
+    display: flex;
+    justify-content: space-between;
     color: var(--menu-items);
     font-size: 18px;
-    text-decoration: none;
-    margin-right: 2rem;    
+    text-decoration: none;    
 }
 
 .lista__link:hover {
     color: var(--menu-items-2);
 }
+
+.lista__link img{  
+    margin-top: 0.2rem;
+    width: 12px;
+    height: 12px; 
+}
 @media screen and  (max-width: 1023px)   {
-    .lista__link{
+    .lista__link { 
         font-size: 16px;
-        margin-right: 2rem;  
+        text-decoration: none;   
     }
     .lista__link img{
         margin-top: 4px; 
         margin-left: 4px; 
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px; 
     }
 }
 

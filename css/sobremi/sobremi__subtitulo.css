@@ -4,26 +4,37 @@
     font-weight: 400;
     font-size: 20px;
     width: 80%;
-    padding-bottom: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
+ .sobremi img{
+    padding-left: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem; 
+  }
 @media screen and  (max-width: 1023px)   {
   .sobremi__subtitulo{
-    padding: 2rem;
-    padding-top: 0rem;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
     font-size: 14px;
     width: 90%;
   }
   .sobremi img{
-    padding-left: 2rem; 
+    padding-left: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem; 
   }
 }
 @media screen and (max-width: 500px)  {
   .sobremi__subtitulo{
-    padding: 1rem;
-    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 14px;
   }
   .sobremi img{
-    padding: 1rem; 
+    padding: 0rem; 
+    padding-left: 1rem; 
   }
 }

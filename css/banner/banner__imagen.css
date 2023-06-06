@@ -1,41 +1,31 @@
 .banner__imagen img{
-    width: 368px;
-    height: 368px;
+    width: 268px;
 }
 .banner__imagen{
+    width:40%;
     display: flex;
-    justify-content: center;
-    align-items:center;
-    width: 700px;
-    height: 400px;   
+    align-items:center;  
 }
 @media screen and  (max-width: 1023px)   {
+   
     .banner__imagen img{
-        width: 160px;
-        height: 160px; 
+        width: 146px;
+        height: 146px;
     }
     .banner__imagen{
         display: flex;
-        align-items:start;
-        height: 220px; 
-        width: 600px;
-        margin: 0rem; 
-        padding:  0rem;
+       align-items:center; 
+        margin-bottom:  1rem;
     }
 }
 @media  screen and (max-width: 500px) {
 .banner__imagen img{
     width: 98px;
     height: 98px; 
-    margin: 0rem; 
-    
    }
    .banner__imagen{
     display: flex;
-    justify-content: start;
     align-items:start;
-    height: 10px;  
-    margin: 2rem;
-    margin-left: 1rem;
+    margin: 1rem;
 }  
 }
