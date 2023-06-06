@@ -1,4 +1,4 @@
-.item{
+.item__uno, .item__dos, .item__tres, .item__cuatro{
     display: flex;
     justify-content: space-between;
     margin: 0rem;
@@ -7,34 +7,64 @@
     margin-bottom: 4rem;
     padding: 0rem; 
 }
-.item img{
-  width:55%;
+.item__uno img, .item__dos img, .item__tres img, .item__cuatro img{
+  
+  width: 60%;
 }
 
 @media screen and  (max-width: 1023px)   {
-  .item{
+  .item__uno, .item__tres {
     display: flex;
-    align-content: space-between;
-    justify-content: space-between;
-    margin: 2rem;
-    margin-top: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
     padding: 0rem; 
-}
-  .item img{
-    width:60%;
-  }
+    }
+  .item__uno img, .item__dos img, .item__tres img, .item__cuatro img{
+      width: 100%;
+    }
+  .item__dos, .item__cuatro {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+      margin: 0rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+      padding: 0rem; 
+    }
 }
 
 @media screen and (max-width: 500px)   {
-  .item{
   
+  .item__uno, .item__tres {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0rem;
+    justify-content: center;
     margin: 0rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    padding: 0rem; 
+    }
+  .item__dos, .item__cuatro {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 0rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    padding: 0rem;
   }
-  .item img{
-    width:50%;
+  .item__uno img, .item__dos img, .item__tres img, .item__cuatro img{
+    width: 100%;
   }
 }
