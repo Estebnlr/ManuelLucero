@@ -5,12 +5,12 @@
     margin-bottom: 1rem;  
 }
 
-@media screen and (max-width: 460px)   {
+@media screen and (max-width: 500px)   {
     .texto__subtitulo{
-        width: 296px;
         align-items: left;
         font-size: 14px;  
-        margin: 1rem; 
-        padding: 1rem;
+        margin: 0rem;
+        margin-top: 0.5rem; 
+        padding: 0rem;
    }
 }
