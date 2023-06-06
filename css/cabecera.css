@@ -38,13 +38,15 @@
     }
     .menu {
         width: 200px;
+        background-color: rgb(255, 170, 127);
         display: flex; 
         justify-content: right;
-        margin:0rem;
+        margin: 0.5rem ;
        
     }
     .logo{
-        width: 40%;
+        width: 170px;
+        background-color: aquamarine;
         margin: 0.5rem ;
     }
     .menu__link{
