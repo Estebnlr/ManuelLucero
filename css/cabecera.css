@@ -34,10 +34,10 @@
 @media screen and (max-width: 500px) {
     
     .menu {
-        width: 55%;
+        width: 270px;
         display: flex; 
         justify-content: right;
-        margin:0.5rem;
+        margin:0rem;
        
     }
     .logo{
