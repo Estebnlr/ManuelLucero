@@ -21,6 +21,7 @@
 @media screen and (max-width: 500px)  {
   .sobremi__subtitulo{
     margin: 1rem;
+    width: 90%;
   }
   .sobremi img{
     margin: 1rem;
