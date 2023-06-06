@@ -37,8 +37,7 @@
         width: 480px;
     }
     .menu {
-        width: 200px;
-        background-color: rgb(255, 170, 127);
+        width: 180px;
         display: flex; 
         justify-content: right;
         margin: 0.5rem ;
@@ -46,7 +45,6 @@
     }
     .logo{
         width: 170px;
-        background-color: aquamarine;
         margin: 0.5rem ;
     }
     .menu__link{
