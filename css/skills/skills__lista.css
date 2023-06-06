@@ -7,9 +7,10 @@
     .skills__lista {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 0rem;    
+        justify-content: space-between;
+        margin: 1rem;
         padding: 0rem; 
-        
+   
     }
  }
 @media screen and (max-width: 500px) {

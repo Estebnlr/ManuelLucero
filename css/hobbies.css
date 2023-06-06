@@ -1,21 +1,19 @@
 .hobbies{
-    height: 350px;
-    margin: 3rem;
+    margin: 0rem;
 }
 @media screen and  (max-width: 1023px)   {
     .hobbies{
         align-items: center;
         justify-content: center;
-        height: 500px;
-        margin: 0rem;
+        margin: 1rem;
     }
 }
 
 @media screen and (max-width: 500px)  {
 
     .hobbies{
-       margin: 0rem;
-       padding: 0rem;
-       margin-bottom: 2rem;
+        margin: 0rem;
+        margin-bottom: 2rem;
+        padding: 0rem;
     }
  }

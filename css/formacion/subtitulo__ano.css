@@ -5,7 +5,9 @@
 @media screen and  (max-width: 1023px)   {
     .subtitulo__ano{
         font-size: 14px;
-        margin: 0.5rem;
+        margin: 0rem;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
         padding: 0rem;
     }
 }
@@ -14,7 +16,7 @@
     width: 290px;
     align-items: left;
     font-size: 14px;
-    margin-top: 0rem;
+    margin-top: 0.5rem;
     padding: 0rem;
     margin-left: 0rem;
     }  

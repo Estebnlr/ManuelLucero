@@ -6,7 +6,7 @@
 }
 @media screen and  (max-width: 1023px)   {
     .formacion{
-        height: 350px;
+        height: 100%;
         margin: 0rem;
         padding: 0rem;
     }
