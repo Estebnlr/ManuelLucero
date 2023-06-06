@@ -1,40 +1,28 @@
 .sobremi__subtitulo{
     font-family: 'Raleway';
-    padding-right: 50rem;
     font-weight: 400;
     font-size: 20px;
     width: 80%;
     margin-left: 2rem;
-    margin-bottom: 2rem;
 }
  .sobremi img{
-    padding-left: 2rem;
-    margin-top: 0rem;
-    margin-bottom: 2rem; 
+    margin: 2rem; 
   }
 @media screen and  (max-width: 1023px)   {
   .sobremi__subtitulo{
     margin-left: 2rem;
-    margin-top: 0rem;
-    margin-bottom: 1rem;
     font-size: 14px;
     width: 90%;
   }
   .sobremi img{
-    padding-left: 2rem;
-    margin-top: 0rem;
-    margin-bottom: 2rem; 
+    margin: 2rem; 
   }
 }
 @media screen and (max-width: 500px)  {
   .sobremi__subtitulo{
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 14px;
+    margin: 1rem;
   }
   .sobremi img{
-    padding: 0rem; 
-    padding-left: 1rem; 
+    margin: 1rem;
   }
 }
