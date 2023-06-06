@@ -21,4 +21,9 @@
     color: var(--menu-items-2);
 }
 
-
+@media screen and (max-width: 500px) {
+    
+    .menu__link--activo {
+        font-size: 14px;
+    }
+}
