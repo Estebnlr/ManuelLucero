@@ -9,7 +9,7 @@
 }
 @media screen and  (max-width: 1023px)   {
     .banner{
-        margin-right:  1rem;
+        margin:  2rem;
     }   
 }
 @media  screen and (max-width: 500px) {
