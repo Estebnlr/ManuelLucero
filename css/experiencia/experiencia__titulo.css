@@ -20,6 +20,7 @@
 }
 @media screen and (max-width: 500px)  {
     .experiencia__titulo h1{
+      width: 80%;
       font-size: 22px;
       padding: 2rem;
       text-align: center;
