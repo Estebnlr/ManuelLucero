@@ -1,16 +1,13 @@
 .experiencia{
     margin: 0rem;
     padding: 0rem; 
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
    
 }
-@media screen and  (max-width: 1023px)   {
+@media (width < 1197px){
     .experiencia{
-        
-        height: 100%;
         margin: 0rem;
         padding: 0rem;
     }
@@ -21,7 +18,7 @@
         flex-direction: column;
         align-items: center;
         margin: 0rem; 
-        padding: 0rem;   
+        padding: 0rem;    
    }
 
    #hola{

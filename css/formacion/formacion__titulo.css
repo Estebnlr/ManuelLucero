@@ -1,20 +1,23 @@
 .formacion__titulo{
     color: var(--titulo);
-    font-weight: 700;
-    font-size: 32px;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
-@media screen and  (max-width: 1023px)   {
+.formacion__titulo h1{
+  font-weight: 700;
+    font-size: 32px;
+}
+ @media (width < 1197px)   {
   .formacion__titulo{
-      margin: 0rem;
+    padding: 2rem;
+
   }
 }
 @media  (max-width: 500px)  {
-    .formacion__titulo{
+    .formacion__titulo h1{ 
       font-size: 22px;
-      margin: 1rem;
+      margin: 0rem;
       text-align: center;
-      padding: 1rem;
+      padding: 0rem;
     }   
   }

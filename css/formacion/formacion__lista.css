@@ -1,14 +1,17 @@
 .formacion__lista {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin: 4rem;
+    padding: 4rem;
 }
-@media screen and  (max-width: 1023px)   {
+
+@media (width < 1197px){
     .formacion__lista{
-        margin: 3rem;
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-        padding: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 4rem;
+        padding-top: 2rem;
     }
 }
 @media (max-width: 500px)  {

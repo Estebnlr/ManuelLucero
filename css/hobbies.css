@@ -1,7 +1,7 @@
 .hobbies{
     margin: 0rem;
 }
-@media screen and  (max-width: 1023px)   {
+@media (width < 1197px){
     .hobbies{
         align-items: center;
         justify-content: center;

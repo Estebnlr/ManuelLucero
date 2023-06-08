@@ -1,9 +1,8 @@
 .formacion__item{
    margin: 0rem;
    width: 100%;
-
 }
-@media screen and  (max-width: 1023px)   {
+@media (width < 1197px)  {
    .formacion__item{
       margin: 0rem;
       padding: 0rem;

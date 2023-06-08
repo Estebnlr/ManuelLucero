@@ -5,12 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <link href="./css/normalize.css" rel="stylesheet" />
-    <link href="./css/reset.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bases.css">
 
-    <link rel="stylesheet" href="css/logo.css">
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/bases.css">
+
+   
+    
+     <link rel="stylesheet" href="./css/cabecera.css">
+    <link rel="stylesheet" href="./css/cabecera/cabecera__logo.css">
+    <link rel="stylesheet" href="./css/cabecera/cabecera__menu.css"> 
+
+
+
+    <link rel="stylesheet" href="./css/logo.css">
 
     <link rel="stylesheet" href="./css/cabecera.css">
     <link rel="stylesheet" href="./css/menu/menu-lista.css">
@@ -74,27 +99,45 @@
 
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/footer/container.css">
-    <link rel="stylesheet" href="./css/footer/container__texto.css">
+    <link rel="stylesheet" href="./css/footer/container__texto.css"> 
 </head>
 <body>
-    
-    <header class="cabecera">  
-        <div class="logo">
+   
+    <div class="cabecera" id="cabecera">  
+        <div class = "cabecera__logo">
             <img src="./img/logo.png" alt="">
-            Manuel Lucero
+             <h1>Manuel Lucero</h1>
         </div>
-     
-        <nav class="menu"> 
-         <ul class="menu__lista">
-            <li class="menu__item"><a class="menu__link" href="index.html#SobreMi">Sobre mi</a></li>
-            <li class="menu__item"><a class="menu__link" href="index.html#Skills">Skills</a></li>
-            <li class="menu__item"><a class="menu__link" href="index.html#Hobbies">Hobbies</a></li>
-            <li class="menu__item"><a class="menu__link" href="index.html#Formacion">Formación</a></li>
-            <li class="menu__item"><a class="menu__link" href="index.html#Proyectos">Proyectos</a></li>
-            <li class="menu__item"><a class="menu__link--activo" href="index.html#Contacto">luce_esteban@hotmail.com</a></li>
-         </ul>
-        </nav>
-    </header>
+        <button class="burger" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-close"></i>
+          </button>
+          <aside type="cabecera__menu">
+          </aside>
+        <div class = "cabecera__menu">
+        <a href="">
+            <button class = "menu__item">Inicio</button>
+        </a>
+        <a href="">
+            <button class = "menu__item">Sobre Mi</button>
+        </a>
+        <a href="">
+            <button class = "menu__item">Skills</button>
+        </a>
+        <a href="">
+            <button class = "menu__item">Hobbies</button>
+        </a>
+        <a href="">
+            <button class = "menu__item">Formación</button>
+        </a>
+        <a href="">
+            <button class = "menu__item">Proyectos</button>
+        </a>
+        <a href="">
+            <button class = "menu__item-correo">luce_esteban@gmail.com</button>
+        </a>
+        </div>
+    </div>
 
      <section class="banners">
         <div class="banner">
@@ -201,9 +244,9 @@
     </section>
 
     <section class="formacion" id="Formacion">
-        <h1 class="formacion__titulo">
-            Formación académica	
-        </h1>
+        <div class="formacion__titulo">
+           <h1>Formación académica</h1> 	
+        </div>
         <div class="formacion__lista">
             <div class="formacion__item">
                 <div class="formacion__img">
@@ -241,11 +284,11 @@
         </div>
     </section>
  
-    <section class="experiencia" id="Proyectos">
-        <h1 class="experiencia__titulo">
-            Experiencia profesional
-        </h1> 
 
+    <section class="experiencia" id="Experiencia">
+        <div class="experiencia__titulo">
+            <h1>Experiencia profesional</h1> 	
+        </div>
         <div class="item__uno">
             <img src="./img/experiencia/primero.png" alt="">
             <div class="item__texto">
@@ -345,8 +388,8 @@
         </div>
     </div>
     </section>
- <!--
-     <section class="contacto" id="Contacto">
+ 
+     <!-- <section class="contacto" id="Contacto">
         <div class="contacto__imagen">
             <img src="./img/contacto.png" alt="">
         </div>
@@ -382,8 +425,8 @@
             </h1> 
             </a> 
         </div>
-    </section> 
- -->
+    </section>  -->
+ 
     <footer>
         <div class="container">
             <h1 class="container__texto">
@@ -392,6 +435,21 @@
             </h1>
         </div>
     </footer> 
-  
+  <script type="text/javascript">
+    const toggleMenu = () =>
+    document.body.classList.toggle("open");
+
+   var prevScrollpos = window.pageYOffset;
+   window.onscroll = function() {
+    var currentScrollPos  = window.pageYOffset;
+   if (prevScrollpos > currentScrollPos ){
+    document.getElementById("cabecera").style.top="0";
+   } else {
+    document.getElementById("cabecera").style.top="-60px";
+   } 
+   prevScrollpos = currentScrollPos 
+}
+   
+  </script>
 </body>
 </html>

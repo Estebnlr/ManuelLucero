@@ -6,6 +6,12 @@
     padding: 2rem;
     padding-bottom: 4rem;
 }
+.experiencia__titulo h1{
+  color: var(--titulo);
+  font-weight: 700;
+  font-size: 32px;
+}
+
 @media screen and  (max-width: 1023px)   {
   .experiencia__titulo{
     padding: 2rem;
@@ -13,7 +19,7 @@
 } 
 }
 @media screen and (max-width: 500px)  {
-    .experiencia__titulo{
+    .experiencia__titulo h1{
       font-size: 22px;
       padding: 2rem;
       text-align: center;

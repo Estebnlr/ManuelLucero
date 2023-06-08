@@ -2,22 +2,23 @@
     padding: 0rem;
     background: var(--banner);
     margin: 0rem;
-    height: 600px;
+   
 }
-@media screen and  (max-width: 1023px)   {
+@media (width < 1197px){
     .formacion{
-        height: 100%;
+        
         margin: 0rem;
         padding: 0rem;
+        
     }
 }
 @media screen and (max-width: 500px)   {
     .formacion{
         display: flex;
-        height: 100%;
         flex-direction: column;
         align-items: center;
         margin: 0rem;
-        padding: 0rem;   
+        padding: 0rem;  
+      
    }
 }
