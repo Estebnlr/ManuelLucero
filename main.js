@@ -1,26 +1,25 @@
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll("nav a");
+const card = gsap.utils.toArry(".hobbies");
 
-const resetLinks = () => {
-  navLinks.forEach((link) => link.classList.remove("active"));
-};
+card.forEach(card => {
+    const anim = gsap.fronTo(
+      card,
+      {
+        autoAlpha: 0,
+        y: 100,
+        x: -100,
+        rotate:-10
+      },
+      {
+        duration: 0.6,
+        autoAlpha: 1,
+        y: 0,
+        x: 0,
+        rotate: 0
+      }
+    );
+ScrollTrigger.create({
+  trigger: card,
+  animation: anim,
+});
 
-const handleScroll = () => {
-  const { pageYOffset } = window;
-
-  sections.forEach((section) => {
-    const { id, offsetTop, clientHeight } = section;
-    const offset = offsetTop - 1;
-
-    if (pageYOffset >= offset && pageYOffset < offset + clientHeight) {
-      resetLinks();
-      navLinks.forEach((link) => {
-        if (link.dataset.scroll === id) {
-          link.classList.add("active");
-        }
-      });
-    }
-  });
-};
-
-document.addEventListener("scroll", handleScroll);
+});

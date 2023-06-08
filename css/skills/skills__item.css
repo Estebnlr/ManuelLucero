@@ -1,26 +1,16 @@
 .skills__item{
     background: #FFFFFF;
-    width: 224px;
-    height: 118px;
-    padding: 16px;
+    width: 176px;
+    height: 174px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    font-weight: 700;
-    font-size: 16px;
     margin: 0.5rem;  
 }
-@media screen and  (max-width: 1023px)   {
-    .skills__item {  
-        width: 60%;  
-    }
- }
-@media screen and (max-width: 500px)   {
-  .skills__item{
-    width: 136px;
-    height: 98px;
-    margin: 0.3rem; 
-  }
 
+.skills__item h1, img{
+  margin-left: 0.5rem; 
+  font-weight: 700;
+  font-size: 16px;
 }

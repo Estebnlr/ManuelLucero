@@ -103,7 +103,7 @@
 </head>
 <body>
    
-    <div class="cabecera" id="cabecera">  
+    <div class="cabecera" >  
         <div class = "cabecera__logo">
             <img src="./img/logo.png" alt="">
              <h1>Manuel Lucero</h1>
@@ -115,13 +115,13 @@
           <aside type="cabecera__menu">
           </aside>
         <div class = "cabecera__menu">
-        <a href="">
+        <a href="#Inicio">
             <button class = "menu__item">Inicio</button>
         </a>
-        <a href="">
+        <a href="#SobreMi">
             <button class = "menu__item">Sobre Mi</button>
         </a>
-        <a href="">
+        <a href="#Skills">
             <button class = "menu__item">Skills</button>
         </a>
         <a href="">
@@ -139,6 +139,7 @@
         </div>
     </div>
 
+<section id="Inicio">
      <section class="banners">
         <div class="banner">
             <h1 class="banner__titulo">
@@ -155,13 +156,14 @@
              </ul>
           
         </div>
-        
         <div class="banner__imagen">
             <img src="./img/banner.png" alt="banner__imagen">
         </div>
     </section>
- 
-    <section class="sobremi" id="SobreMi">
+</section>
+
+<section id="SobreMi">
+    <section class="sobremi" >
         <div class="sobremi__contenido"> 
             <div class="sobremi__titulo">
                 Sobre Mi	
@@ -177,8 +179,10 @@
             <img src="./img/firma.png" alt="firma"> 
         </div>      
     </section>
- 
-    <section class="skills" id="Skills">
+</section>
+    
+<section id="Skills">
+    <section class="skills" >
         <div class="skills__titulo">
              Skills
         </div>
@@ -186,30 +190,32 @@
         <div class="skills__lista">
             <div class="skills__item">
                 <img src="./img/skills/html.png" alt=""> <br>
-                 Html 5
+                 <h1>Html 5</h1>
             </div>
             <div class="skills__item">
                 <img src="./img/skills/java.png" alt=""> <br>
-                Javascript
+                <h1>Javascript</h1>
             </div>
             <div class="skills__item">
                 <img src="./img/skills/php.png" alt=""> <br>
-                PHP
+                <h1>PHP</h1>
             </div>
             <div class="skills__item">
                 <img src="./img/skills/node.png" alt=""> <br>
-                Node JS
+                <h1>Node JS</h1>
             </div>
             <div class="skills__item">
                 <img src="./img/skills/react.png" alt=""> <br>
-                React
+                <h1>React</h1>
             </div>
             <div class="skills__item">
                 <img src="./img/skills/css.png" alt=""> <br>
-                CSS
+                <h1>CSS</h1>
             </div>
         </div>
     </section>
+</section>
+  
 
     <section class="hobbies" id="Hobbies">
         <h1 class="hobbies__titulo">
@@ -449,7 +455,6 @@
    } 
    prevScrollpos = currentScrollPos 
 }
-   
   </script>
 </body>
 </html>
