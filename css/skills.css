@@ -68,6 +68,7 @@
 @media screen and (max-width: 500px)  {
          .skills__titulo{
             margin-top: 7rem;
+            margin: 0rem;
             text-align: center;
          }  
 
