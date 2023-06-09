@@ -14,10 +14,10 @@
 
 @media (width < 1197px){
 
-  .formacion__titulo{
+  .proyectos__titulo{
     margin: 2rem;
     }
-                .formacion__titulo h1{
+                .proyectos__titulo h1{
                     font-size: 22px;
                  }
 }
