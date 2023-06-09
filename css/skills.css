@@ -7,21 +7,22 @@
    }
    
 .skills{
- margin: 0rem;
+ align-items: center;
+ justify-content: center;
+ width: 90%;
 }
 @media (width < 1197px){ 
    .skills{
       align-items: center;
       justify-content: center;
-      margin: 1rem;
+      width: 100%;
    }
 }
-
 @media screen and (max-width: 500px)  {
 
    .skills{
-      margin: 0rem;
-      margin-bottom: 2rem;
-      padding: 0rem;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
    }
 }

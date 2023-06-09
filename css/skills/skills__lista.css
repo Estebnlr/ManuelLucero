@@ -1,22 +1,18 @@
 .skills__lista {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: space-between;
-
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 
 }
 @media (width < 1197px){ 
     .skills__lista {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: space-between;
-   
+        grid-template-columns: repeat(3, 1fr); 
     }
  }
 @media screen and (max-width: 500px) {
 .skills__lista {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
     }  
 }

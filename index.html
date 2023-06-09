@@ -74,15 +74,7 @@
     <link rel="stylesheet" href="./css/formacion/subtitulo__ano.css">
     
 
-    <link rel="stylesheet" href="./css/experiencia.css">
-    <link rel="stylesheet" href="./css/experiencia/experiencia__titulo.css">
-    <link rel="stylesheet" href="./css/experiencia/item.css">
-    <link rel="stylesheet" href="./css/experiencia/item/item__texto.css">
-    <link rel="stylesheet" href="./css/experiencia/item/texto__botones.css">
-    <link rel="stylesheet" href="./css/experiencia/item/texto__subtitulo.css">
-    <link rel="stylesheet" href="./css/experiencia/item/texto__titulo.css">
-    <link rel="stylesheet" href="./css/experiencia/item/botones/primario.css">
-    <link rel="stylesheet" href="./css/experiencia/item/botones/secundario.css">
+   
 
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/contacto/contacto__imagen.css">
@@ -100,7 +92,12 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/footer/container.css">
     <link rel="stylesheet" href="./css/footer/container__texto.css"> 
-</head>
+    
+    <!-- Proyectos  -->
+    <link rel="stylesheet" href="./css/proyectos.css"> 
+    <link rel="stylesheet" href="./css/proyectos/proyectos__titulo.css"> 
+    <link rel="stylesheet" href="./css/proyectos/proyectos__uno.css"> 
+    </head>
 <body>
    
     <div class="cabecera" >  
@@ -124,13 +121,13 @@
         <a href="#Skills">
             <button class = "menu__item">Skills</button>
         </a>
-        <a href="">
+        <a href="#Hobbies">
             <button class = "menu__item">Hobbies</button>
         </a>
-        <a href="">
+        <a href="#Formacion">
             <button class = "menu__item">Formación</button>
         </a>
-        <a href="">
+        <a href="#Proyectos">
             <button class = "menu__item">Proyectos</button>
         </a>
         <a href="">
@@ -216,40 +213,42 @@
     </section>
 </section>
   
-
-    <section class="hobbies" id="Hobbies">
+<section id="Hobbies">
+    <section class="hobbies" >
         <h1 class="hobbies__titulo">
             Hobbies
         </h1>
         <div class="hobbies__lista">
             <div class="hobbies__item">
                 <img src="./img/hobbies/patinar.png" alt=""> <br>
-                Patinaje
+                <h1>Patinaje</h1>
             </div>
             <div class="skills__item">
                 <img src="./img/hobbies/tocar.png" alt=""> <br>
-                Tocar bajo
+                <h1>Tocar bajo</h1>
             </div>
             <div class="hobbies__item">
                 <img src="./img/hobbies/musica.png" alt=""> <br>
-                Oír música
+                <h1>Oír música</h1>
             </div>
             <div class="hobbies__item">
                 <img src="./img/hobbies/tv.png" alt=""> <br>
-                Ver series
+                <h1>Ver series</h1>
             </div>
             <div class="hobbies__item">
                 <img src="./img/hobbies/cocinar.png" alt=""> <br>
-                Cocinar
+                <h1>Cocinar</h1>
             </div>
             <div class="hobbies__item">
                 <img src="./img/hobbies/fotos.png" alt=""> <br>
-                Tomar fotos
+                <h1>Tomar fotos</h1>
             </div>
         </div>
     </section>
-
-    <section class="formacion" id="Formacion">
+</section>
+    
+<section id="Formacion">
+    <section class="formacion" id="formacion" >
         <div class="formacion__titulo">
            <h1>Formación académica</h1> 	
         </div>
@@ -289,112 +288,127 @@
             </div>
         </div>
     </section>
- 
+</section>
 
-    <section class="experiencia" id="Experiencia">
-        <div class="experiencia__titulo">
-            <h1>Experiencia profesional</h1> 	
+<section  id="Proyectos">
+    <div class="proyectos">
+        <div class="proyectos__titulo"  >
+            <h1>Experiencia profesional</h1>
         </div>
-        <div class="item__uno">
-            <img src="./img/experiencia/primero.png" alt="">
+        <div class="proyectos__item__uno" >
+                <div class="item__img">
+                    <img src="./img/experiencia/primero.png" alt="">
+                </div>
+                <div class="item__texto">
+                     <h1 >
+                         Encriptador de texto
+                     </h1>
+                     <h2 >
+                         Challenge Alura Codificador
+                     </h2>
+                     <div class="item__botones">
+                        <a href="">
+                            <h1 class="primario" href="">
+                                Repositorio  
+                             </h1>
+                        </a>
+                        <a href="">
+                            <h1 class="primario" href="">
+                                Ver demo
+                             </h1>
+                        </a>   
+                     </div>
+                </div>
+        </div>    
+</section>
+<section  id="proyectos">
+<div class="proyectos" >
+<div class="proyectos__item__dos" id="hola">
+    <div class="item__texto">
+         <h1 >
+             Encriptador de texto
+         </h1>
+         <h2 >
+             Challenge Alura Codificador
+         </h2>
+         <div class="item__botones">
+            <a href="">
+                <h1 class="primario" href="">
+                    Repositorio  
+                 </h1>
+            </a>
+            <a href="">
+                <h1 class="primario" href="">
+                    Ver demo
+                 </h1>
+            </a>   
+         </div>
+    </div>
+    <div class="item__img">
+        <img src="./img/experiencia/segundo.png" alt="">
+    </div>
+</div>    
+</div>    
+</section>  
+<section  id="proyect">
+    <div class="proyectos">
+    <div class="proyectos__item__uno" >
+        <div class="item__img">
+            <img src="./img/experiencia/tercero.png" alt="">
+        </div>
+        <div class="item__texto">
+             <h1 >
+                 Encriptador de texto
+             </h1>
+             <h2 >
+                Challenge Oracle
+             </h2>
+             <div class="item__botones">
+                <a href="">
+                    <h1 class="primario" href="">
+                        Repositorio  
+                     </h1>
+                </a>
+                <a href="">
+                    <h1 class="primario" href="">
+                        Ver demo
+                     </h1>
+                </a>   
+             </div>
+        </div>
+    </div>    
+    </div>    
+    </section>
+    <section  id="proyectos">
+        <div class="proyectos">
+        <div class="proyectos__item__dos" id="hola">
             <div class="item__texto">
-                
-                 <h1 class="texto__titulo">
+                 <h1 >
                      Encriptador de texto
                  </h1>
-                 <h2 class="texto__subtitulo">
+                 <h2 >
                      Challenge Alura Codificador
                  </h2>
-                <div class="texto__botones">
+                 <div class="item__botones">
                     <a href="">
                         <h1 class="primario" href="">
                             Repositorio  
                          </h1>
                     </a>
                     <a href="">
-                        <h1 class="secundario" href="">
+                        <h1 class="primario" href="">
                             Ver demo
                          </h1>
                     </a>   
                  </div>
             </div>
-        </div>
+            <div class="item__img">
+                <img src="./img/experiencia/cuarto.png" alt="">
+            </div>
+        </div>    
+        </div>    
+        </section>          
 
-        <div class="item__dos" >
-            <div class="item__texto">
-                <h1 class="texto__titulo">
-                    Juego creado con HTML y JavaScript
-                </h1>
-                <h2 class="texto__subtitulo">
-                    Challenge Oracle
-                </h2>
-                <div class="texto__botones">
-                    <a href="">
-                        <h1 class="primario" href="">
-                            Repositorio  
-                         </h1>
-                    </a>
-                    <a href="">
-                        <h1 class="secundario" href="">
-                            Ver demo
-                         </h1>
-                    </a>   
-                 </div>
-                 
-           </div>
-           <img src="./img/experiencia/segundo.png" alt="">
-        </div>
-        <div class="item__tres">
-            <img src="./img/experiencia/tercero.png" alt="">
-            <div class="item__texto">
-                
-                 <h1 class="texto__titulo">
-                     Encriptador de texto
-                 </h1>
-                 <h2 class="texto__subtitulo">
-                    Challenge Oracle
-                 </h2>
-                 <div class="texto__botones">
-                    <a href="">
-                        <h1 class="primario" href="">
-                            Repositorio  
-                         </h1>
-                    </a>
-                    <a href="">
-                        <h1 class="secundario" href="">
-                            Ver demo
-                         </h1>
-                    </a>   
-                 </div>
-            </div>
-        </div>
-
-        <div class="item__cuatro">
-            <div class="item__texto">
-                 <h1 class="texto__titulo">
-                     Juego creado con HTML y JavaScript
-                 </h1>
-                 <h2 class="texto__subtitulo">
-                     Challenge Oracle
-                 </h2>
-                 <div class="texto__botones">
-                    <a href="">
-                        <h1 class="primario" href="">
-                            Repositorio  
-                         </h1>
-                    </a>
-                    <a href="">
-                        <h1 class="secundario" href="">
-                            Ver demo
-                         </h1>
-                    </a>   
-                 </div>
-            </div>
-            <img src="./img/experiencia/cuarto.png" alt="">
-        </div>
-    </div>
-    </section>
- 
      <!-- <section class="contacto" id="Contacto">
         <div class="contacto__imagen">
             <img src="./img/contacto.png" alt="">
@@ -440,7 +454,8 @@
                 2023
             </h1>
         </div>
-    </footer> 
+    </footer>  
+
   <script type="text/javascript">
     const toggleMenu = () =>
     document.body.classList.toggle("open");
@@ -454,7 +469,7 @@
     document.getElementById("cabecera").style.top="-60px";
    } 
    prevScrollpos = currentScrollPos 
-}
+  }
   </script>
 </body>
 </html>

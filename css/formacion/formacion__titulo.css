@@ -1,6 +1,6 @@
 .formacion__titulo{
     color: var(--titulo);
-    padding: 1rem;
+    margin: 1rem;
     text-align: center;
 }
 .formacion__titulo h1{
@@ -16,11 +16,13 @@
 @media  (max-width: 500px)  {
     .formacion__titulo h1{ 
       font-size: 22px;
+      font-weight: 700;
       margin: 0rem;
       text-align: center;
       padding: 0rem;
     }   
     .formacion__titulo{ 
-    width: 70%;
+    width: 100%;
+    margin: 2rem;
   }
   }

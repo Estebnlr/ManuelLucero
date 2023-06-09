@@ -1,0 +1,31 @@
+.proyectos__titulo{
+    color: var(--titulo);
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin: 6rem;
+  }
+.proyectos__titulo h1{
+  color: var(--titulo);
+  font-weight: 700;
+  font-size: 32px;
+  
+}
+
+@media (width < 1197px){
+
+    .proyectos__titulo{
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 500px)   {
+  .proyectos__titulo h1{
+    width: 100%;
+      font-weight: 700;
+      font-size: 22px;
+      }
+}   
+

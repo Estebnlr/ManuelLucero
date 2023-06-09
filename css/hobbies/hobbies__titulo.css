@@ -13,7 +13,6 @@
 }
 @media screen and (max-width: 500px)  {
   .hobbies__titulo{
-    width: 70%;
     font-size: 22px;
     text-align: center;
     padding: 0rem;

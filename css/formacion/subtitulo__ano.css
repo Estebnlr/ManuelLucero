@@ -10,10 +10,7 @@
 }
 @media (max-width: 500px)  {
 .subtitulo__ano{
-    width: 90%;
-    align-items: left;
-    font-weight: 500;
-    font-size: 14px;
-    
+    width: 100%;
+    justify-content: left;
     }  
 }
