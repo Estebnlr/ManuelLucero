@@ -1,28 +1,81 @@
-#Skills {
+#Skills, #Hobbies {
    width: 100%;
    height: 100%;
    display: flex;
    align-items: center;
    justify-content: center;
    }
-   
-.skills{
- align-items: center;
- justify-content: center;
- width: 90%;
-}
+         .skills{
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         }
+                  .skills__titulo{
+                     color: var(--titulo);
+                     align-items: center;
+                     justify-content: center;
+                     text-align: center;
+                     margin: 10rem;
+                  }
+                           .skills__titulo h1{
+                              font-weight: 700;
+                              font-size: 32px;
+                           }
+
+                  .skills__lista {
+                     display: flex;
+                     align-items: center;
+                     justify-content: space-between;
+                     margin: 1rem;
+                  }
+                           .skills__item{
+                              background: #FFFFFF;
+                              width: 176px;
+                              height: 174px;
+                              display: flex;
+                              flex-direction: column;
+                              justify-content: flex-end;
+                              align-items: flex-start;
+                              margin: 0.5rem;
+                           }
+                                    .skills__item h1, img{
+                                       margin: 0.5rem; 
+                                       font-weight: 700;
+                                       font-size: 16px;
+                                    }
+
 @media (width < 1197px){ 
    .skills{
-      align-items: center;
-      justify-content: center;
       width: 100%;
    }
+         .skills__titulo{
+            text-align: center;
+            margin: 5rem;
+         } 
+                  .skills__titulo h1{
+                     font-weight: 700;
+                     font-size: 22px;
+                  }
+         .skills__lista {
+               display: grid;
+               grid-template-columns: repeat(3, 1fr); 
+               margin: 1rem;
+         }
+                  .skills__item {
+                     width: 90%;
+                  }
 }
 @media screen and (max-width: 500px)  {
+         .skills__titulo{
+            font-size: 22px;
+            text-align: center;
+            margin: 2.5rem;
+         }  
 
-   .skills{
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-   }
-}
+         .skills__lista {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0.5rem;
+         }  
+               
+      }
