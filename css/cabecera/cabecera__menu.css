@@ -17,6 +17,19 @@
     font-weight: 500; 
     width: 120px; 
   }
+ .menu__item-x{
+  text-transform: uppercase;
+  border: 0;
+  background-color: transparent;
+  float : left;
+  color: #464646;
+  text-align: center;
+  padding: 23px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500; 
+  width: 120px; 
+  }
   .menu__item:hover, .menu__item-correo:hover{
     cursor: pointer;
     background-color: #ddd;
