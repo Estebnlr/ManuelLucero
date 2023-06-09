@@ -16,8 +16,10 @@
 }
 @media screen and (max-width: 500px)    {
     .banner__subtitulo{
-    font-size: 14px;
-    text-align: left;
-    margin: 1rem;  
+        font-weight: 400;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 1rem;  
+        margin-bottom: 2rem;    
 }
 }

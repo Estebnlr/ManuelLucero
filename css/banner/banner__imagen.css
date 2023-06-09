@@ -27,8 +27,6 @@
    .banner__imagen{
     display: flex;
     justify-content: left;
-    align-items:start;
-    margin-top:  2rem;
-    
+    align-items:start;    
 }  
 }
