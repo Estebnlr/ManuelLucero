@@ -14,20 +14,20 @@
 
 @media (width < 1197px){
 
-    .proyectos__titulo{
-        font-weight: 700;
-        font-size: 22px;
+  .formacion__titulo{
+    margin: 2rem;
     }
+                .formacion__titulo h1{
+                    font-size: 22px;
+                 }
 }
 
 
 @media screen and (max-width: 500px)   {
-  .proyectos__titulo{
-      width: 100%;
-      }
+
     .proyectos__titulo{
-        font-weight: 700;
-        font-size: 22px;
+      
+        margin:5rem;
       }
 }   
 
