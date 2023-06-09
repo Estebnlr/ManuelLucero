@@ -22,10 +22,12 @@
 
 
 @media screen and (max-width: 500px)   {
-  .proyectos__titulo h1{
-    width: 100%;
-      font-weight: 700;
-      font-size: 22px;
+  .proyectos__titulo{
+      width: 100%;
+      }
+    .proyectos__titulo{
+        font-weight: 700;
+        font-size: 22px;
       }
 }   
 
