@@ -41,7 +41,7 @@ nav, .overlay, .burger, aside{
       }
       body.open .burger i:last-child {
         display:block;
-        color: #000;
+        color: #ddd;
       }
       main {
         padding: 10px 30px;
