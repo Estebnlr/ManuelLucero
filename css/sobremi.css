@@ -7,28 +7,31 @@ justify-content: center;
 align-items: center;
 }
         .sobremi{
-        width: 90%;
-        align-items: left;
-        justify-content: left;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
         }
                 .sobremi__titulo{
-                    margin-bottom: 2rem; 
+                    margin: 5rem;
                     font-weight: 700;
-                    font-size: 36px;   
+                    font-size: 36px;  
                 }
                 .sobremi__subtitulo{
                     font-weight: 400;
                     font-size: 16px;
                     width:75%;
+                    margin: 5rem;
                 }
                 
 @media screen and  (max-width: 1023px)   {
             .sobremi__titulo {
                 font-size: 22px; 
+                margin: 3rem;
             }
             .sobremi__subtitulo{
                 font-size: 14px;
                 font-weight: 400;
-                width: 95%;
+                width: 80%;
+                margin: 3rem;
               }
 }

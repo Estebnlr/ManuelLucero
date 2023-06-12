@@ -7,77 +7,54 @@
     background: var(--banner);
     }
         .formacion{
-            margin: 0rem;
-            padding: 0rem;
             width: 100%;
-           
             align-items: center;
             justify-content: center;
         }
-
             .formacion__titulo{
-                color: var(--titulo);
-                margin: 1rem;
                 text-align: center;
+                margin: 5rem;
             }
                     .formacion__titulo h1{
                     font-weight: 700;
                     font-size: 32px;
                     }
 
-            .formacion__lista {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                 margin: 1rem;
+            .formacion__lista { 
+                margin: 5rem;
             }
                     .formacion__item{
-                        width: 100%;
                         display: flex;
-                        justify-content: space-between;
-                        margin:3rem;
+                        justify-content: space-between;   
+                        gap: 10px; 
                     }
 
 @media (width < 1197px)
 {
             .formacion__titulo{
-            margin: 2rem;
+             margin: 3rem;
             }
                         .formacion__titulo h1{
                             font-size: 22px;
                          }
 
             .formacion__lista{
-                margin: 2rem;
+                margin: 3rem;
               }
-                        .formacion__item{
-                            margin: 0rem;
+                        .formacion__item{                         
+                            display: flex;
+                            justify-content: space-between;   
+                            gap: 16px; 
                         }    
 }
     
 
 @media screen and (max-width: 500px)   
 {
-    .formacion{
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-            .formacion__titulo{
-                margin-top: 5rem;
-                }
-                           
-            .formacion__lista{
-                    margin: 1rem;      
-                }
-                            .formacion__item{
-                                height: 539px;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                flex-direction: column;
-                            }  
+           .formacion__item{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px; 
+                }  
   
 }
