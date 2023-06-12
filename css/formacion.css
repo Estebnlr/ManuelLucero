@@ -51,6 +51,12 @@
 
 @media screen and (max-width: 500px)   
 {
+    .formacion__titulo{
+        margin: 2rem;
+    }
+       .formacion__lista{
+           margin: 2rem;
+         }
            .formacion__item{
                     display: flex;
                     flex-direction: column;
