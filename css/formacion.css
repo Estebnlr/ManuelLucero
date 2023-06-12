@@ -55,18 +55,14 @@
 
 @media screen and (max-width: 500px)   
 {
-    .formacion{
-        width: 100%;
-  
-      
-    align-items: center;
-    justify-content: center;
-        background-color: blue;
-    }
-      
     .formacion__titulo{
         margin: 2rem;
     }
+    .formacion__contenido
+      {  
+      margin: 0rem;
+      }   
+
        .formacion__lista{
         background-color: red;
            margin: 2rem;
