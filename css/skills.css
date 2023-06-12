@@ -71,11 +71,11 @@
       } 
 
          .skills__lista {
-            
+            width: 100%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             margin: 0rem;
-            gap: 1rem;
+            gap: 2rem;
             align-content: left;
             align-items: left;
             justify-content: left;
@@ -84,7 +84,8 @@
          .skills__item {
             background-color: red;
             height: 118px;    
-            margin: 0rem;   
+            margin: 0rem;  
+            width: 100%; 
          }
          
       }
