@@ -31,6 +31,7 @@
 
 @media (width < 1197px)
 {
+    
             .formacion__titulo{
              margin: 3rem;
             }
@@ -56,8 +57,10 @@
 {
     .formacion{
         width: 100%;
-        align-items: center;
-        justify-content: center;
+  
+      
+    align-items: center;
+    justify-content: center;
         background-color: blue;
     }
       
