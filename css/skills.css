@@ -69,6 +69,10 @@
    .skills__titulo{
       margin: 4rem;
       } 
+   .skills__contenido
+      {  
+      margin: 2rem;
+      }   
 
          .skills__lista {
             width: 100%;
@@ -76,9 +80,6 @@
             grid-template-columns: repeat(2, 1fr);
             margin: 0rem;
             gap: 2rem;
-            align-content: left;
-            align-items: left;
-            justify-content: left;
             background-color: rgb(0, 255, 64);
          }  
          .skills__item {
