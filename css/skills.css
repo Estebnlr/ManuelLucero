@@ -67,7 +67,7 @@
 }
 @media screen and (max-width: 500px)  {
    .skills__titulo{
-      margin: 4rem;
+      margin: 2rem;
       } 
    .skills__contenido
       {  
@@ -80,10 +80,8 @@
             grid-template-columns: repeat(2, 1fr);
             margin: 0rem;
             gap: 2rem;
-            background-color: rgb(0, 255, 64);
          }  
          .skills__item {
-            background-color: red;
             height: 118px;    
             margin: 0rem;  
             width: 100%; 
