@@ -33,19 +33,20 @@
 @media (width < 1197px)
 {
             .formacion__titulo{
-             margin: 3rem;
+             margin: 2rem;
             }
                         .formacion__titulo h1{
                             font-size: 22px;
                          }
 
             .formacion__lista{
-                margin: 3rem;
+                margin: 2rem;
               }
                         .formacion__item{                         
                             display: flex;
                             justify-content: space-between;   
-                            gap: 16px; 
+                            gap: 2rem;
+                            margin: 0rem;  
                         }    
 }
     
