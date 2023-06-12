@@ -31,7 +31,6 @@
 
 @media (width < 1197px)
 {
-    
             .formacion__titulo{
              margin: 3rem;
             }
@@ -61,21 +60,29 @@
     .formacion__contenido
       {  
         margin: 2rem;
-        background-color: red;
-        width: 100%;
       }   
+            .contenido__img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 169px; 
+                background-color: white;
+                }
+                        .contenido__img img{
+                            width: 84px;
+                            height: 58px;
+                            }  
 
-       .formacion__lista{
-        margin: 2rem;
-        background-color: aqua;
-     
-         }
-           .formacion__item{
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            margin: 2rem;
-            gap: 2rem;
-                }  
-  
-}
+            .formacion__contenido  h1{
+                font-weight: 700;
+                font-size: 16px; 
+                margin-top: 0.5rem;                   
+                        }
+            .formacion__contenido  h2{
+                 font-weight: 500;
+                 font-size: 14px;                         
+                 margin-top: 0.5rem;
+                        }
+    
+    }

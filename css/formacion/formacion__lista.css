@@ -50,17 +50,13 @@
 }
 @media (max-width: 500px)  {
     .formacion__item__lista{
-        width: 100%;
-        height: 169px; 
-       background-color: yellow;
+        
     } 
                 .formacion__item__lista-img{
-                    width: 100%;
-                    height: 118px;
+                    
                     } 
      
                 .formacion__item__lista-img img{
-                    width: 84px;
-                    height: 58px;
+                    
                     }
  }
