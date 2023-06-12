@@ -26,12 +26,12 @@ align-items: center;
 @media screen and  (max-width: 1023px)   {
             .sobremi__titulo {
                 font-size: 22px; 
-                margin: 3rem;
+                margin: 2rem;
             }
             .sobremi__subtitulo{
                 font-size: 14px;
                 font-weight: 400;
-                width: 80%;
-                margin: 3rem;
+                width: 85%;
+                margin: 2rem;
               }
 }

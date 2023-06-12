@@ -66,13 +66,15 @@
                            }
 }
 @media screen and (max-width: 500px)  {
+   .skills__titulo{
+      margin: 4rem;
+      } 
 
          .skills__lista {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            padding: 16px;
-gap: 8px;
-      
+            margin: 0rem;
+            gap: 4.7rem;
          }  
          .skills__item {
             width: 156px;

@@ -8,6 +8,7 @@
     }
         .formacion{
             width: 100%;
+            background: var(--banner);
             align-items: center;
             justify-content: center;
         }
