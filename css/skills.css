@@ -75,7 +75,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             margin: 0rem;
-            gap: 4rem;
+            gap: 1rem;
             align-content: left;
             align-items: left;
             justify-content: left;
