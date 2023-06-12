@@ -74,7 +74,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             margin: 0rem;
-            gap: 4.7rem;
+            gap: 2rem;
          }  
          .skills__item {
             width: 156px;
