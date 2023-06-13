@@ -46,7 +46,7 @@
 @media (width < 1197px){ 
         .skills__titulo{
          text-align: center;
-         margin: 3rem;
+         margin: 2rem;
          } 
                   .skills__titulo h1{
                      font-weight: 700;
@@ -54,7 +54,7 @@
                   }
          .skills__contenido
          { 
-         margin: 3rem;
+         margin: 2rem;
          }
                   .skills__lista {
                      display: grid;
