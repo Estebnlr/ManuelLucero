@@ -59,13 +59,13 @@
 
 @media (width < 1197px) {
     .formacion__titulo{  
-        margin:2rem;
+        margin:3rem;
     }
             .formacion__titulo h1{
                 font-size: 22px;  
             }
     .formacion__contenido{
-        margin:2rem;
+        margin:3rem;
     }
             .contenido__item{
                 width: 224px;

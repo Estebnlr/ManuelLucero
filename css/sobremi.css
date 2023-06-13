@@ -23,24 +23,24 @@ align-items: center;
                     margin: 5rem;
                 }
                 
-@media screen and  (max-width: 1023px)   {
+@media (width < 1197px) { 
             .sobremi__titulo {
                 font-size: 22px; 
-                margin: 2rem;
+                margin: 3rem;
             }
             .sobremi__subtitulo{
                 font-size: 14px;
                 font-weight: 400;
                 width: 85%;
-                margin: 2rem;
+                margin: 3rem;
               }
 }
 
 @media screen and (max-width: 500px)  {
     .sobremi__titulo {
-        margin: 1rem;
+        margin: 2rem;
     }
     .sobremi__subtitulo{
-        margin: 1rem;
+        margin: 2rem;
     }
 }
