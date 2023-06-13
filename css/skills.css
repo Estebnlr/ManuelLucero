@@ -53,13 +53,14 @@
                      font-size: 22px;
                   }
          .skills__contenido
-         {  
+         { 
          margin: 3rem;
          }
                   .skills__lista {
-                        display: grid;
-                        grid-template-columns: repeat(3, 1fr); 
-                        gap: 8px;
+                     display: grid;
+                     grid-template-columns: repeat(3, 0fr);
+                     gap: 32px;
+                     margin: 0rem;
                   }
                            .skills__item {
                               width: 224px;
@@ -72,13 +73,12 @@
       } 
    .skills__contenido
       {  
-      justify-content: space-between;
       margin: 2rem;
       }   
 
          .skills__lista {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 0fr);
             gap: 16px;
             margin: 0rem;
             }  
