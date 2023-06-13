@@ -62,7 +62,8 @@
                         gap: 8px;
                   }
                            .skills__item {
-                              width: 90%;                    
+                              width: 224px;
+                              height: 118px;                   
                            }
 }
 @media screen and (max-width: 500px)  {
