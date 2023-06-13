@@ -35,3 +35,12 @@ align-items: center;
                 margin: 2rem;
               }
 }
+
+@media screen and (max-width: 500px)  {
+    .sobremi__titulo {
+        margin: 1rem;
+    }
+    .sobremi__subtitulo{
+        margin: 1rem;
+    }
+}
