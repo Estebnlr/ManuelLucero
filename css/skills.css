@@ -68,24 +68,36 @@
 }
 @media screen and (max-width: 500px)  {
    .skills__titulo{
-      margin: 2rem;
+      margin: 3rem;
       } 
    .skills__contenido
       {  
-      margin: 2rem;
+      margin: 3rem;
+      justify-content: space-between;
       }   
 
          .skills__lista {
-            width: 100%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
             margin: 0rem;
-            gap: 2rem;
-         }  
-         .skills__item {
-            height: 118px;    
-            margin: 0rem;  
-            width: 100%; 
-         }
-         
+            }  
+            .skills__item {
+            width: 156px;
+            height: 118px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            }
+
+               .skills__item h1{
+                  font-weight: 700;
+                  font-size: 16px;
+                  margin: 0.3rem;
+               }
+               .skills__item img{
+                  margin: 0.3rem;
+               }
+            
       }
