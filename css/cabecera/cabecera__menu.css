@@ -32,7 +32,7 @@
   .menu__item:hover, .menu__item-correo:hover{
     cursor: pointer;
     background-color: #ddd;
-    color: #000;
+    color: #464646;
     transition: 0.3s;
     font-weight: bold
   }
@@ -92,7 +92,7 @@
         cursor: pointer;
         font-weight: bold;
         background-color: #ddd;
-        color: #000;
+        color: #464646;
         transition: 0.3s;
       }
       .menu__item-correo{

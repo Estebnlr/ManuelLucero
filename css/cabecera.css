@@ -3,14 +3,13 @@
    justify-content: space-between;
    height: 60px;
    position: fixed;
-   z-index: 1;
+   z-index: 3;
    background-color: #fff;
    top: 0;
    width: 100%;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
    transition: 0.3s;  
 }
-
 nav, .overlay, .burger, aside{
   display: none;  
 }
@@ -53,22 +52,3 @@ nav, .overlay, .burger, aside{
       }
       
     }
-
-/* 
-@media screen and (max-width: 500px) {
-    .menu {
-        width: 60%;
-        display: flex; 
-        justify-content: right;
-        margin: 0rem ;
-    }
-    .logo{
-        width: 40%;
-        margin: 0rem ;
-        
-    }
-    .menu__link{
-        display: none;   
-    }
-
-  } */

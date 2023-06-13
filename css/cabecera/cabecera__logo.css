@@ -1,12 +1,14 @@
+
 .cabecera__logo{
     display: flex; 
     justify-content: left;
     align-items: center; 
     margin:  1rem;
     
-}
-.cabecera__logo h1{
+  }
+  .cabecera__logo h1{
+  color: #464646;
   font-size: 16px;
   font-weight: 700;  
   margin:  4px;
-}
+  }
