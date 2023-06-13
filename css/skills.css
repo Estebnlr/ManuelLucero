@@ -73,6 +73,7 @@
    .skills__contenido
       {  
       justify-content: space-between;
+      margin: 2rem;
       }   
 
          .skills__lista {
