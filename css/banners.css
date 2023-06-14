@@ -48,8 +48,8 @@
                                     font-weight: 500;
                                     font-size: 18px;   
                                 }
-                                .banner__contenido a:hover{ 
-                                    color:var(--COLOR2);
+                                .banner__contenido a:hover{  
+                                    border-bottom: thick solid;
                                 }  
                                
                     

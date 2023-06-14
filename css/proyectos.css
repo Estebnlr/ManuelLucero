@@ -78,9 +78,8 @@
         margin: 5rem;
       }
                 .proyectos__titulo h1{
-                color: #464646;
-                font-weight: 700;
-                font-size: 22px;
+                    font-weight: 700;
+                    font-size: 22px;
                 }
     .proyectos__contenido__item{
         display: flex;

@@ -1,24 +1,8 @@
-:root {
-    --menu-items: #464646;
-    --menu-items-2:  #2A7AE4;
-    --banner:   #EAF2FD;
-    --titulo: #393939;
-
-
-    --FONDO:#607D8B;
-    --TEXTOFONDO:#FFFFFF;
-    --TEXTOFONDO2:#CFD8DC;
-
-    --FONDO2:#03A9F4;
-    --TEXTO2FONDO:#212121;
-
-    --FONDO3:#FFFFFF;
-
-    
-    --COLOR:#F5F5F5;
-    --COLOR2:#536DFE;
+:root {   
+    --COLOR:#E9ECEF;
+    --COLOR2:#343A40;
     --COLOR3:#FFFFFF;
     --COLOR4:#212121;
-    --COLOR5:#BDBDBD;
-
+    --COLOR5:#DEE2E6;
+   
 }

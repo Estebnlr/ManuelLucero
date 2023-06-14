@@ -41,7 +41,7 @@
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
-                                        background: var(--FONDO3);
+                                        background: var(--COLOR3);
                                     }
                                             .contenido__item img{
                                                 width: 192px;
