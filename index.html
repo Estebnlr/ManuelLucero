@@ -19,10 +19,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
-
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-    <link href="./css/normalize.css" rel="stylesheet" />
+
 
     <link href="./css/reset.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/bases.css">
@@ -48,14 +46,12 @@
     
     <!-- PROYECTOS -->
     <link rel="stylesheet" href="./css/proyectos.css"> 
-    <link rel="stylesheet" href="./css/proyectos/proyectos__titulo.css"> 
-    <link rel="stylesheet" href="./css/proyectos/proyectos__uno.css"> 
 
-    
+    <!-- FOOTER -->
     <link rel="stylesheet" href="./css/footer.css">
     
-    
-    </head>
+</head>
+
 <body>
    
     <div class="cabecera" >  
@@ -96,6 +92,8 @@
         </a>
         </div>
     </div>
+
+<!-- INICIO-->
 
 <section id="Inicio">
      <section class="banner">
@@ -139,6 +137,8 @@
     </section>
 </section>
 
+ <!-- SOBRE MI -->
+
  <section id="SobreMi">
     <setion class="sobremi">
            <h1 class="sobremi__titulo"> Sobre Mi	</h1> 
@@ -154,6 +154,8 @@
             </h1>      
     </section>
 </section>
+
+<!-- SKILS Y HOBBIES -->
 
 <section id="Skills">
     <section class="skills" >
@@ -227,6 +229,8 @@
     </section>
 </section>
 
+<!-- FORMACION -->   
+
 <section id="Formacion">
     <section class="formacion">
         <div class="formacion__titulo">
@@ -258,8 +262,7 @@
     </section>
 </section> 
 
-                 
-  
+<!-- PROYECTOS -->
  
  <section  id="Proyectos">
         <div class="proyectos__contenido">
@@ -370,31 +373,33 @@
         </div>
 </section>
 
-    <footer>
+<!-- FOOTER-->
+
+<footer>
         <div class="container">
             <h1>
                 Desarrollado por Manuel Lucero 2023
             </h1>
         </div>
-    </footer>  
+</footer>  
 
 
+<!-- JS-->
 
+    <script type="text/javascript">
+            const toggleMenu = () =>
+            document.body.classList.toggle("open");
 
-  <script type="text/javascript">
-    const toggleMenu = () =>
-    document.body.classList.toggle("open");
-
-   var prevScrollpos = window.pageYOffset;
-   window.onscroll = function() {
-    var currentScrollPos  = window.pageYOffset;
-   if (prevScrollpos > currentScrollPos ){
-    document.getElementById("cabecera").style.top="0";
-   } else {
-    document.getElementById("cabecera").style.top="-60px";
-   } 
-   prevScrollpos = currentScrollPos 
-  }
-  </script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos  = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos ){
+            document.getElementById("cabecera").style.top="0";
+        } else {
+            document.getElementById("cabecera").style.top="-60px";
+        } 
+        prevScrollpos = currentScrollPos 
+        }
+    </script>
 </body>
 </html>

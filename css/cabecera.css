@@ -1,10 +1,10 @@
 .cabecera { 
    display: inline-flex;
    justify-content: space-between;
-   height: 60px;
+   height: 62px;
    position: fixed;
    z-index: 3;
-   background-color: #fff;
+   background-color: var(--COLOR);
    top: 0;
    width: 100%;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ nav, .overlay, .burger, aside{
         width: 82px;
         height: 82px;
         font-size: 30px;
-        color: #464646;
+        color: var(--COLOR4);
         background: transparent;
         border: 0;
         cursor: pointer;
@@ -40,7 +40,7 @@ nav, .overlay, .burger, aside{
       }
       body.open .burger i:last-child {
         display:block;
-        color: #ddd;
+        color: var(--COLOR4);
       }
       main {
         padding: 10px 30px;

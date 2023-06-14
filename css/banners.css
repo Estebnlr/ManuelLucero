@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: var(--COLOR);
     }  
     .banner{ 
         display: flex;
@@ -23,10 +24,10 @@
                     .banner__contenido h1{
                         font-weight: 700;
                         font-size: 52px; 
-                        color: #464646;  
+                        color: var(--COLOR4); 
                     }
                     .banner__contenido h2{
-                        color: #464646;
+                        color: var(--COLOR4); 
                         font-weight: 400;
                         font-size: 22px;
                     }
@@ -40,16 +41,17 @@
                             }
                                 .banner__contenido a{
                                     text-decoration: none;   
-                                    color: #464646;
+                                    color:var(--COLOR4); 
                                     display: flex;
                                     align-items: center;
                                     justify-content: center;
                                     font-weight: 500;
-                                    font-size: 16px;
+                                    font-size: 18px;   
                                 }
-                                .banner__contenido a:hover{
-                                    color: #230fd7;
+                                .banner__contenido a:hover{ 
+                                    color:var(--COLOR2);
                                 }  
+                               
                     
             .banner__imagen{
                 display: flex;

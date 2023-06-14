@@ -7,7 +7,7 @@
     
   }
   .cabecera__logo h1{
-  color: #464646;
+  color: var(--COLOR4);
   font-size: 16px;
   font-weight: 700;  
   margin:  4px;
