@@ -12,6 +12,7 @@ align-items: center;
         justify-content: center;
         }
                 .sobremi__titulo{
+                    color: #464646;
                     margin: 5rem;
                     font-weight: 700;
                     font-size: 36px;  
@@ -19,17 +20,18 @@ align-items: center;
                 .sobremi__subtitulo{
                     font-weight: 400;
                     font-size: 16px;
-                    width:75%;
+                    width:70%;
                     margin: 5rem;
                 }
                 
 @media (width < 1197px) { 
             .sobremi__titulo {
                 font-size: 22px; 
+                font-weight: 700;
                 margin: 3rem;
             }
             .sobremi__subtitulo{
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 400;
                 width: 85%;
                 margin: 3rem;
