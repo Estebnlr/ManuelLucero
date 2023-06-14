@@ -1,9 +1,0 @@
-.form__item {
-    display: flex;
-    flex-direction: column;
-    width: 700px;
-    height: 56px;
-    background: #FFFFFF;
-    padding: 1rem;
-    gap: 1px;
-}
