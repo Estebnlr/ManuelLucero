@@ -69,6 +69,7 @@
 @media (width < 1197px){
 
     .proyectos__titulo{
+        width: 100%;
         text-align: center;
         margin: 5rem;
       }
