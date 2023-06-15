@@ -1,5 +1,5 @@
 #SobreMi {
-background: var(--COLOR5);
+background: var(--FONOD2);
 width: 100%;
 height: 100%;
 display: flex;
@@ -12,13 +12,13 @@ align-items: center;
         justify-content: center;
         }
                 .sobremi__titulo{
-                    color: var(--COLOR4);
+                    color: var(--TEXTO2);
                     margin: 5rem;
                     font-weight: 700;
                     font-size: 36px;  
                 }
                 .sobremi__subtitulo{
-                    color: var(--COLOR4);
+                    color: var(--TEXTO2);
                     font-weight: 400;
                     font-size: 16px;
                     width:70%;

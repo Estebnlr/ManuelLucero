@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--COLOR5);   
+    background: var(--FONOD2);   
 }  
 .proyectos__contenido{
     width:90%;
@@ -18,7 +18,7 @@
             margin: 5rem;
           }
                     .proyectos__titulo h1{
-                    color: var(--COLOR4);
+                    color: var(--TEXTO2);
                     font-weight: 700;
                     font-size: 36px
                     }
@@ -52,21 +52,21 @@
                                 gap: 16px;
                             }
                                             .primario{
-                                                font-weight: 400px;
+                                                font-weight: 200px;
                                                 font-size: 16px;
-                                                border: 1px solid var(--COLOR2);
-                                                color: var(--COLOR2);
+                                                border: 1px solid var(--TEXTO2);
+                                                color: var(--TEXTO2);
                                                 display: flex;
                                                 justify-content: center;
                                                 align-items: center;
                                                 padding: 16px;
                                                 text-decoration: none;
-                                                background-color:var(--COLOR3);
+                                                background-color:var(--TEXTO);
                                             }
                                             .primario:hover {
-                                                background: var(--COLOR2);
-                                                border: 1px solid var(--COLOR2);  
-                                                color: #FFFFFF;
+                                                background: var(--CABECERA);
+                                                border: 1px solid var(--TEXTO2);  
+                                                color: var(--TEXTO2);
                                             }
 @media (width < 1197px){
     .proyectos__contenido{

@@ -9,20 +9,21 @@
     border: 0;
     background-color: transparent;
     float : left;
-    color: var(--COLOR4);
+    color: var(--TEXTO2);
     text-align: center;
     padding: 23px;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500; 
     width: 120px; 
+    height: 62px;
   }
  .menu__item-x{
   text-transform: uppercase;
   border: 0;
   background-color: transparent;
   float : left;
-  color: var(--COLOR2);
+  color: var(--TEXTO2);
   text-align: center;
   text-decoration: none;
   font-size: 14px;
@@ -31,8 +32,8 @@
   }
   .menu__item:hover, .menu__item-correo:hover{
     cursor: pointer;
-    background-color: var(--COLOR2);
-    color: var(--COLOR);
+    background-color: var(--TEXTO);
+    color: var(--TEXTO2);
     transition: 0.3s;
     font-weight: bold;
   }
@@ -41,7 +42,7 @@
     border: 0;
     background-color: transparent;
     float : left;
-    color: var(--COLOR4);
+    color: var(--TEXTO2);
     text-align: center;
     padding: 23px;
     text-decoration: none;
@@ -61,7 +62,7 @@
         width: 260px;
         height: 100%;
         padding: 18px 0px 0px;
-        background: var(--COLOR);
+        background: var(--CABECERA);
         box-shadow: 0 0 20px rgb(0 0 0 / 70%);
         translate: 100% 0;
         transition: 0.3s;
@@ -72,15 +73,13 @@
         text-decoration: none;
         font-size: 14px;
         font-weight: 500; 
-        height: 60px;
-        
+        height: 60px; 
       }
       .menu__item-x{
         text-transform: uppercase;
         border: 0;
         background-color: transparent;
         float : left;
-        
         text-align: center;
         padding: 23px;
         text-decoration: none;
@@ -97,11 +96,12 @@
         border: 0;
         background-color: transparent;
         float : left;
-        color: var(--COLOR4);
+        color: var(--TEXTO2);
         text-align: center;
         padding: 23px;
         text-decoration: none;
         font-size: 16px;
-        font-weight: bold; 
+        font-weight: 700;  
+        height: 62px;
       }
   }

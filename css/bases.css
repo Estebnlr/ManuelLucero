@@ -1,8 +1,12 @@
 :root {   
-    --COLOR:#E9ECEF;
-    --COLOR2:#343A40;
-    --COLOR3:#FFFFFF;
-    --COLOR4:#212121;
-    --COLOR5:#DEE2E6;
+    
+    --CABECERA:#adb5bd;
+
+    --FONDO:#ced4da;
+    --FONOD2:#dee2e6;
+    --FONDO3:#e9ecef;
    
+
+    --TEXTO:#FFFFFF;
+    --TEXTO2:#212121;
 }

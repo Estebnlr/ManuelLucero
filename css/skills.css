@@ -4,10 +4,10 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   background: var(--COLOR);
+   background: var(--FONDO3);
    }
 #Hobbies {
-   background: var(--COLOR5);
+   background: var(--FONOD2);
 }   
          .skills{
             width: 100%;
@@ -15,7 +15,7 @@
             justify-content: center;
          }
                   .skills__titulo{
-                     color: var(--COLOR4);
+                     color: var(--TEXTO2);
                      text-align: center;
                      margin: 5rem;
                   }
@@ -34,7 +34,7 @@
                     
                            }
                                     .skills__item{
-                                       background:var(--COLOR3);
+                                       background:var(--TEXTO);
                                        width: 176px;
                                        height: 174px;
                                        display: flex;
@@ -43,7 +43,7 @@
                                        align-items: flex-start; 
                                     }
                                              .skills__item h1, img{
-                                                color: var(--TEXTO2FONDO);
+                                                color: var(--TEXTO2);
                                                 margin: 0.5rem; 
                                                 font-weight: 700;
                                                 font-size: 16px;
