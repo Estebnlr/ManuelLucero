@@ -95,8 +95,8 @@
     }
     .banner__contenido{
         gap: 12px;
-        width: 90%;
-        margin: 0rem;
+       
+        margin: 1rem;
     }
             .banner__contenido h1{
                 font-weight: 700;
