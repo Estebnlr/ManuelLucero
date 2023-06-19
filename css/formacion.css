@@ -44,7 +44,7 @@
                                         background: var(--TEXTO);
                                     }
                                             .contenido__item img{
-                                                width: 260px;
+                                                width: 95%;
                                             }
                                     .contenido__item h1{
                                         font-weight: 700;
@@ -77,9 +77,7 @@
                         width: 90%;
                         height: 50%;               
                     }  
-                            .contenido__item img{
-                                width:200px
-                            }
+                          
                     .contenido__item h1{
                     font-weight: 700;
                     font-size: 16px;
@@ -102,7 +100,7 @@
     }
             .contenido__item{
                 width: 90%; 
-                height: 169px;
+                height: 200px;
             }
                     .contenido__item__img{
                         width: 100%;                  
