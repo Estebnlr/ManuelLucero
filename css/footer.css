@@ -1,4 +1,4 @@
-.container{
+.footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,11 +6,10 @@
     background: var(--CABECERA);   
 }
 
-.container h1{
+.footer__contenido{
     text-align: center;
     font-weight: 500;
     font-size: 16px;
-    margin: 2rem;
-    width: 50%;
+    margin: 1rem;
 }
 
