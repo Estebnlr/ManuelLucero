@@ -90,13 +90,16 @@
         flex-direction: column;
         margin:2rem;
     }
+    .formacion__titulo{  
+        margin:2rem;
+    }
             .contenido__item{
                 width: 90%; 
                 height: 180px;
             }
                     .contenido__item__img{
                         width: 100%;  
-                        height: 110px;                
+                        height: 100px;                
                     }  
                             .contenido__item img{
                                 
