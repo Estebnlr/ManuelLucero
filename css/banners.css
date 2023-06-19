@@ -94,9 +94,8 @@
         flex-direction: column-reverse;
     }
     .banner__contenido{
-        gap: 12px;
-       
-        margin: 1rem;
+        width: 90%;
+        margin: 0rem;
     }
             .banner__contenido h1{
                 font-weight: 700;
@@ -108,14 +107,16 @@
             }
 
             .banner__contenido ul{
-                width: 80%;
+                width: 70%;
+                display: flex;
+                justify-content:space-between;
             }
             .banner__contenido a{
                 font-weight: 400;
                 font-size: 16px;
             }
     .banner__imagen{
-        margin: 1rem;
+        margin: 0rem;
     }
         .banner__imagen img{
             width: 70%;
