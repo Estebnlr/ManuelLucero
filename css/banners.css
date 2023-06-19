@@ -94,7 +94,7 @@
         flex-direction: column-reverse;
     }
     .banner__contenido{
-        width: 90%;
+        width: 100%;
         margin: 0rem;
     }
             .banner__contenido h1{
