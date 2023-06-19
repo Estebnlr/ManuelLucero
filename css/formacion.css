@@ -103,8 +103,11 @@
             .contenido__item{
                 width: 296px;
                 height: 169px;
-            } 
+            }
+                    .contenido__item__img{
+                        width: 296px;                  
+                    }  
                             .contenido__item img{
-                                width: 140px;
+                                width: 160px; 
                             }
 }
