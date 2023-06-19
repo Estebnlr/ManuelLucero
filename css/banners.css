@@ -96,18 +96,22 @@
     .banner__contenido{
         width: 100%;
         margin: 0rem;
+        align-items: center;
+        justify-content: center;
     }
             .banner__contenido h1{
+                width:90%;
                 font-weight: 700;
                 font-size: 26px;
             }
             .banner__contenido h2{
+                width:90%;;
                 font-weight: 400;
                 font-size: 18px;
             }
 
             .banner__contenido ul{
-                width: 70%;
+                width:90%;
                 display: flex;
                 justify-content:space-between;
             }
