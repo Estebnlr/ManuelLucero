@@ -101,11 +101,11 @@
         margin:2rem;
     }
             .contenido__item{
-                width: 280px;
+                width: 90%; 
                 height: 169px;
             }
                     .contenido__item__img{
-                        width: 280x;                  
+                        width: 100%;                  
                     }  
                             .contenido__item img{
                                 width: 160px; 
