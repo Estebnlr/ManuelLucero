@@ -80,6 +80,7 @@
    .skills__contenido
       {  
       margin: 2rem;
+      background-color: aqua;
       }   
 
          .skills__lista {
@@ -89,12 +90,8 @@
             margin: 0rem;
             }  
             .skills__item {
-            width: 156px;
-            height: 118px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: flex-start;
+               width: 200px;
+               height: 118px;  
             }
 
                .skills__item h1{
