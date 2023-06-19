@@ -65,7 +65,7 @@
                                             }
                                             .primario:hover {
                                                 background: var(--TEXTO2);
-                                                border: 1px solid var(--TEXTO);  
+                                                border: 1px solid var(--TEXTO2);  
                                                 color: var(--TEXTO);
                                             }
 @media (width < 1197px){
