@@ -80,7 +80,6 @@
    .skills__contenido
       {  
       margin: 2rem;
-      background-color: aqua;
       }   
 
          .skills__lista {
@@ -90,7 +89,7 @@
             margin: 0rem;
             }  
             .skills__item {
-               width: 200px;
+               width: 180px;
                height: 118px;  
             }
 
