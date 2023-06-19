@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--FONDO3);
+    background: var(--CABECERA);
     }
         .formacion{
             width: 100%;
@@ -44,8 +44,7 @@
                                         background: var(--TEXTO);
                                     }
                                             .contenido__item img{
-                                                width: 192px;
-                                                height: 130px;
+                                                width: 260px;
                                             }
                                     .contenido__item h1{
                                         font-weight: 700;
@@ -79,8 +78,7 @@
                         height: 50%;               
                     }  
                             .contenido__item img{
-                                width: 70px;
-                                height: 48px;
+                                width:200px
                             }
                     .contenido__item h1{
                     font-weight: 700;
@@ -105,13 +103,8 @@
             .contenido__item{
                 width: 296px;
                 height: 169px;
-            }
-                    .contenido__item__img{
-                        width: 296px;
-                        height: 118px;                    
-                    }  
+            } 
                             .contenido__item img{
-                                width: 84px;
-                                height: 58px;
+                                width: 140px;
                             }
 }

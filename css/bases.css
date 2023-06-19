@@ -1,12 +1,8 @@
 :root {   
     
-    --CABECERA:#adb5bd;
+    --CABECERA:#E9ECEF;
+    --FONDO:#CED4DA;
 
-    --FONDO:#ced4da;
-    --FONOD2:#dee2e6;
-    --FONDO3:#e9ecef;
-   
-
-    --TEXTO:#FFFFFF;
-    --TEXTO2:#212121;
+    --TEXTO:#F8F9FA;
+    --TEXTO2:#343A40;
 }

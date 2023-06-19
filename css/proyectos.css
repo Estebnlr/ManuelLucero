@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--FONOD2);   
+    background: var(--FONDO);   
 }  
 .proyectos__contenido{
     width:90%;
@@ -64,9 +64,9 @@
                                                 background-color:var(--TEXTO);
                                             }
                                             .primario:hover {
-                                                background: var(--CABECERA);
-                                                border: 1px solid var(--TEXTO2);  
-                                                color: var(--TEXTO2);
+                                                background: var(--TEXTO2);
+                                                border: 1px solid var(--TEXTO);  
+                                                color: var(--TEXTO);
                                             }
 @media (width < 1197px){
     .proyectos__contenido{
