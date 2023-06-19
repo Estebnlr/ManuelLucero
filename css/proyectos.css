@@ -114,3 +114,9 @@
     }
 }
 
+@media screen and (max-width: 500px)  {
+ 
+    .proyectos__titulo{
+        margin-bottom: 4rem;
+      }
+}
