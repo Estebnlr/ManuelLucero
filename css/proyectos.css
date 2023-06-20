@@ -6,11 +6,12 @@
     background: var(--FONDO);   
 }  
 .proyectos__contenido{
-    width:90%;
+    width:100%;
     display: flex;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
+    margin: 4rem;
 }    
 
         .proyectos__titulo{
