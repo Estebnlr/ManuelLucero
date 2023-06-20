@@ -117,7 +117,20 @@
 }
 
 @media screen and (max-width: 500px)  {
-      .proyectos__titulo{
+    .proyectos__contenido{
+        width:100%;
+        margin: 1rem;
+    } 
+    .proyectos__titulo{
         margin: 4rem;;
       }
+      .proyectos__contenido__img{
+        width: 100%; 
+    }
+            .proyectos__contenido__img img{
+                width: 95%;
+            }
+    .proyectos__contenido__texto{
+        width: 95%;
+    }
 }
