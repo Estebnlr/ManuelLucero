@@ -114,10 +114,13 @@
         flex-direction: column-reverse; 
     }
 }
-
+@media (width < 1197px) {
+    .proyectos__contenido{
+        margin: 0rem;
+    }
+}
 @media screen and (max-width: 500px)  {
- 
-    .proyectos__titulo{
+      .proyectos__titulo{
         margin-bottom: 2rem;
         margin-top: 5rem;
       }
