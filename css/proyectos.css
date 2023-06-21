@@ -6,13 +6,10 @@
     background: var(--FONDO);   
 }  
 .proyectos__contenido{
-    margin: 2rem;
-    margin-bottom: 4rem;
-    margin-top: 6rem;
+    width: 90%;
     align-items: center;
     justify-content: center;
-    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    margin: 3rem;
 }    
 
         .proyectos__titulo{
@@ -28,7 +25,6 @@
             display: flex;
             align-items: center;
             justify-content: center;  
-            margin: 3rem;
         }
                     .proyectos__contenido__img{
                         width: 100%; 
@@ -102,27 +98,18 @@
                                                 color: var(--TEXTO);
                                             }
 @media (width < 1197px){
-    .proyectos__contenido{
-        width:100%;
-        margin: 2rem;
-        margin-top: 5rem;
-    }
-    .proyectos__titulo{
-        text-align: center;
-        margin: 2rem;
-      }
+   
                 .proyectos__titulo h1{
                     font-weight: 700;
                     font-size: 22px;
                 }
     .proyectos__contenido__item{
         display: flex;
-        flex-direction: column; 
-        margin-left: 3rem;
+        flex-direction: column;
     }
         
                 .proyectos__contenido__texto{
-                    width: 98%; 
+                    width: 100%; 
                 }
                         .proyectos__contenido__texto h1{
                             font-weight: 700;
@@ -134,7 +121,13 @@
                             gap: 16px;
                             margin-bottom: 2rem;
                         }   
-                     
+            .proyectos__contenido__img{
+                width: 100%;
+                margin: 0rem;
+            }
+            .proyectos__contenido__img img{
+                width: 100%; margin: 0rem;
+            }
     #proyectos{
         flex-wrap: wrap-reverse;
         flex-direction: column-reverse; 
@@ -142,21 +135,9 @@
 }
 
 @media screen and (max-width: 500px)  {
-    .proyectos__contenido{
-        width:100%;
-        margin: 1rem;
-        margin-top: 5rem;
-        display: flex;
-        flex-direction: column;
-
-    } 
-    .proyectos__titulo{
-        width: 100%;
-        margin: 4rem;
-      }
 
     .proyectos__contenido__item{
-        margin: 0rem;width: 95%;gap: 12px;margin-left: 1rem;
+        margin: 0rem;width: 100%;gap: 12px;
     }
       .proyectos__contenido__img{
         margin: 0rem;
