@@ -127,11 +127,11 @@
     .formacion{
         width:100%;
         margin: 1rem;
-        margin-top: 8rem;
-        margin-bottom: 4rem;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
     }
     .formacion__titulo{  
-        margin: 2rem;
+  
     }
     .formacion__contenido{
         display: flex;
