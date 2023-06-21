@@ -136,9 +136,10 @@
 
 @media screen and (max-width: 500px)  {
     .proyectos__contenido{
+        width: 100%;
         align-items: center;
         justify-content: center;
-        margin: 2rem;
+        margin: 1rem;
     } 
     .proyectos__contenido__texto{
         width: 100%; 
