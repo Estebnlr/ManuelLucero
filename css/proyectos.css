@@ -148,19 +148,25 @@
 
 @media screen and (max-width: 500px)  {
     .proyectos__contenido{
-        width:100%;
         margin: 1rem;
+        display: flex;
+        flex-direction: column;
+
     } 
     .proyectos__titulo{
         margin: 4rem;;
       }
+
+    .proyectos__contenido__item{
+        margin: 0rem;width: 95%;gap: 12px;
+    }
       .proyectos__contenido__img{
-        width: 100%; 
+        margin: 0rem;
     }
             .proyectos__contenido__img img{
-                width: 95%;
+                margin: 0rem;
             }
     .proyectos__contenido__texto{
-        width: 95%;
+        margin: 0rem;
     }
 }
