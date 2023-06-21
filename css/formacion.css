@@ -10,8 +10,6 @@
             width: 95%;
             align-items: center;
             justify-content: center;
-            -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-             animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         }
                     .formacion__titulo{  
                         margin:4rem;
@@ -123,7 +121,9 @@
 @media screen and (max-width: 500px)  {
  
     .formacion{
-        width:95%;
+        width: 100%;
+        margin: 1rem;
+        margin-top: 3rem;
     }
     .formacion__titulo{  
         margin: 2rem;
