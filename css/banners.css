@@ -105,6 +105,8 @@
         flex-wrap: wrap-reverse;
         flex-direction: column-reverse;
         gap: 32px;
+        margin: 1rem;
+        margin-top: 3rem;
     }
     .banner__contenido{
      width: 90%;
