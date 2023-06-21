@@ -135,7 +135,9 @@
 }
 
 @media screen and (max-width: 500px)  {
-
+    .proyectos__contenido__texto{
+        width: 100%; 
+    }
     .proyectos__contenido__item{
         margin: 0rem;width: 100%;gap: 12px;
     }
