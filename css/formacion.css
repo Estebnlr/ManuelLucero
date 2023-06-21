@@ -31,14 +31,14 @@
                         align-items: center;
                         justify-content: space-between;
                         gap: 10px;
-                        margin:4rem;
+                        margin-left:3rem;
                     }
                                 .contenido__item{
-                                    width: 100%;
-                                    height: 347px;
+                                    width: 90%;
+                                    height: 447px;
                                 }
                                     .contenido__item__img{
-                                        width: 95%;
+                                        width: 90%;
                                         height: 286px;
                                         display: flex;
                                         align-items: center;
@@ -78,7 +78,7 @@
                                       }
                                       
                                             .contenido__item img{
-                                                width: 60%;
+                                                width: 70%;
                                             }
                                     .contenido__item h1{
                                         font-weight: 700;
@@ -95,15 +95,22 @@
 
 @media (width < 1197px) {
     .formacion__titulo{  
-        margin: 2rem;
+        margin: 4rem;
     }
             .formacion__titulo h1{
                 font-size: 22px;  
             }
     .formacion__contenido{
-        margin:2rem;
+        margin-left:3rem;
     }
-              
+    .contenido__item{
+        width: 90%;
+        margin: 0rem;
+    }
+        .contenido__item__img{
+            width: 90%;
+        }
+       
                     .contenido__item h1{
                     font-weight: 700;
                     font-size: 16px;
@@ -116,14 +123,20 @@
 }
 
 @media screen and (max-width: 500px)  {
+    #Formacion{
+        width: 100%;
+       
+    }
+    .formacion{
+        width: 95%;
+    }
     .formacion__titulo{  
-        margin-bottom: 2rem;
-        margin-top: 5rem;
+        margin: 3rem;
     }
     .formacion__contenido{
         display: flex;
         flex-direction: column;
-        margin:2rem;
+        margin:1rem;
     }
             .contenido__item{
                 width: 100%; 
