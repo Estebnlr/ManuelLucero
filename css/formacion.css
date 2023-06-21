@@ -131,7 +131,7 @@
         margin-bottom: 10rem;
     }
     .formacion__titulo{  
-  
+        margin: 2rem;
     }
     .formacion__contenido{
         display: flex;
