@@ -99,6 +99,7 @@
 @media  screen and (max-width: 500px) {
 
     .banner{
+        width: 100%;
         display: wrap;
         flex-direction: column;
         flex-wrap: wrap-reverse;
