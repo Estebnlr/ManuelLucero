@@ -128,7 +128,9 @@
        
     }
     .formacion{
-        width: 95%;
+        width:100%;
+        margin: 1rem;
+        margin-top: 5rem;
     }
     .formacion__titulo{  
         margin: 3rem;
