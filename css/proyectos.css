@@ -140,6 +140,7 @@
         align-items: center;
         justify-content: center;
         margin: 1rem;
+        margin-top: 3rem;
     } 
     .proyectos__contenido__texto{
         width: 100%; 
