@@ -96,7 +96,8 @@
 
 @media (width < 1197px) {
     .formacion__titulo{  
-        margin: 4rem;
+        margin: 1rem;
+        margin-top: 4rem;
     }
             .formacion__titulo h1{
                 font-size: 22px;  
