@@ -77,6 +77,11 @@
                            }
 }
 @media screen and (max-width: 500px)  {
+   .skills{
+   width: 100%;
+   margin: 0rem;
+   margin-top: 3rem;
+   }
    .skills__titulo{
       margin: 2rem;
       } 
