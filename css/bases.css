@@ -1,7 +1,9 @@
 :root {   
-    --FONDO1:  linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-    --FONDO2: linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);
-
+   --FONDO1:  linear-gradient(to top, #CED4DA 0%, white 100%);
+   /* linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    --FONDO2: linear-gradient(to top, white 0%, #CED4DA 100%);
+    /*  linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);*/
+ 
     --TEXTO:#F8F9FA;
     --TEXTO2:#343A40;
 }
