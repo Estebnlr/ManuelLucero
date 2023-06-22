@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--CABECERA);
+    background: var(--FONDO1);
     }  
     .banner{ 
         width: 90%;
@@ -18,23 +18,30 @@
                 align-items: flex-start;
                 justify-content: left;
                 gap: 32px;
-                width: 50%; 
+                width: 50%;          
             }
+              
                     .banner__contenido h1{
                         font-weight: 700;
                         font-size: 52px; 
                         color: var(--TEXTO2); 
+                        -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	                    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
                     }
                     .banner__contenido h2{
                         color: var(--TEXTO2); 
                         font-weight: 400;
                         font-size: 22px;
+                        -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	                    animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
                     }
                     .banner__contenido ul{
                         width: 70%;
                         height: 50px;
                         display: flex;
                         justify-content:space-between;
+                        -webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	                    animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
                     }   
                             .banner__contenido li{
                                 list-style: none; 
@@ -47,6 +54,7 @@
                                     justify-content: center;
                                     font-weight: 500;
                                     font-size: 18px;   
+                      
                                 }
                                 .banner__contenido a:hover{  
                                     border-bottom: thick solid;
@@ -58,6 +66,7 @@
                 display: flex;
                 align-items:center; 
                 justify-content: center; 
+       
             }
                     .banner__imagen img{
                         width: 70%;

@@ -4,10 +4,10 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   background: var(--CABECERA);
+   background: var(--FONDO1);
    }
 #Hobbies {
-   background: var(--FONDO);
+   background: var(--FONDO2);
 }   
          .skills{
             width: 95%;

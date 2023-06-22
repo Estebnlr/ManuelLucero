@@ -62,7 +62,7 @@
         width: 260px;
         height: 100%;
         padding: 18px 0px 0px;
-        background: var(--CABECERA);
+        background: var(--FONDO2);
         box-shadow: 0 0 20px rgb(0 0 0 / 70%);
         translate: 100% 0;
         transition: 0.3s;
