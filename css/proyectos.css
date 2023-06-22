@@ -113,6 +113,9 @@
         margin: 2rem;
         margin-top: 3rem;
     } 
+    .proyectos__titulo{
+        width: 80%;
+      }
     .proyectos__contenido__texto{
         width: 100%; 
     }
