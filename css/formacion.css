@@ -23,7 +23,6 @@
                                     font-size: 32px;   
                                 }
 
-
                     .formacion__contenido{
                         display: flex;
                         align-items: center;
@@ -41,8 +40,9 @@
                                         display: flex;
                                         align-items: center;
                                         justify-content: center;
-                                        background: var(--TEXTO);
-                    
+                                        -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                                        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
                                     }                                                 
                                             .contenido__item img{
                                                 width: 70%;
