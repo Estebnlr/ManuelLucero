@@ -34,14 +34,15 @@ align-items: center;
             .sobremi__subtitulo{
                 font-size: 18px;
                 font-weight: 400;
-                width: 90%;
+                width: 85%;
                 margin: 3rem;
               }
 }
 
 @media screen and (max-width: 500px)  {
 .sobremi{
-    margin: 1rem;
+    width: 100%;
+    margin: 0rem;
     margin-top: 3rem;
 }
     .sobremi__titulo {
