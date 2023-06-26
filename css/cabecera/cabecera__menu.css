@@ -2,8 +2,12 @@
   display: flex; 
   justify-content: right;
   align-items: center;
-}
 
+}
+.cabecera__items{
+
+ 
+}
 .menu__item{
     text-transform: uppercase;
     border: 0;

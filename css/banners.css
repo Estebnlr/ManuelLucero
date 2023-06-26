@@ -63,7 +63,7 @@
        
             }
                     .banner__imagen img{
-                        width: 70%;
+                        width: 400px;
                     }
 
 
@@ -95,7 +95,7 @@
                 justify-content: center; 
             }
                     .banner__imagen img{
-                        width: 70%;
+                     width: 300px;
                     }
 
 }
