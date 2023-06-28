@@ -36,8 +36,8 @@
   }
   .menu__item:hover, .menu__item-correo:hover{
     cursor: pointer;
-    background-color: #D7EBFE;
-    color: var(--TEXTO2);
+    background-color: var(--TEXTO2);
+    color: var(--TEXTO);
     transition: 0.3s;
     font-weight: bold;
   }

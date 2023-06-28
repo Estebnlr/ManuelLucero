@@ -7,7 +7,7 @@
     background: var(--FONDO1);
     }  
     .banner{ 
-        width: 90%;
+        width: 95%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -18,8 +18,9 @@
                 align-items: flex-start;
                 justify-content: left;
                 gap: 32px;
-                width: 50%;          
-            }
+                width: 50%;  
+            }  
+            
               
                     .banner__contenido h1{
                         font-weight: 700;
@@ -35,8 +36,36 @@
                         width: 70%;
                         height: 50px;
                         display: flex;
-                        justify-content:space-between;
-                    }   
+                        justify-content:space-between;                    
+                    }
+
+                    /* .git{
+                        animation: banner__contenido 15s forwards;   
+                    }
+                    .lin{
+                        animation: banner__contenido 20s forwards;   
+                    }
+                    .ins{
+                        animation: banner__contenido 25s forwards;   
+                    }
+                    .cv{
+                        animation: banner__contenido 30s forwards;   
+                    }
+                    @keyframes banner__contenido{
+                        100%{
+                            opacity: 0;
+                            
+                        }
+                        15%{
+                            opacity: 1;
+                            visibility:visible;
+                        }
+                        0%{
+                            opacity: 0;
+                            visibility:hidden;
+                        }
+                    }
+                      */
                             .banner__contenido li{
                                 list-style: none; 
                             }
@@ -59,9 +88,8 @@
                 width:40%;
                 display: flex;
                 align-items:center; 
-                justify-content: center; 
-       
-            }
+                justify-content: center;            
+             }
                     .banner__imagen img{
                         width: 400px;
                     }

@@ -6,9 +6,9 @@
    justify-content: center;
    background: var(--FONDO1);
    }
-#Hobbies {
+/* #Hobbies {
    background: var(--FONDO2);
-}   
+}    */
          .skills{
             width: 95%;
             align-items: center;
@@ -65,8 +65,7 @@
                   .skills__lista {
                      display: grid;
                      grid-template-columns: repeat(3, 0fr);
-                     gap: 32px;
-                     margin: 0rem;
+                    
                   }
                            .skills__item {
                               width: 224px;

@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--FONDO2);
+    background: var(--FONDO1);
 }  
 .proyectos__contenido{
     width: 90%;
